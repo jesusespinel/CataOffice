@@ -1,9 +1,10 @@
 .contact_c {
   background-image: url('../assets/Picture_2.jpg');
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: 100% 100%;
   display: flex;
   justify-content: flex-end;
+  
 }
 
 #overlay {
@@ -80,4 +81,14 @@ select {
   background-color: #4CAA76;
   border: 0px;
   color: white;
+}
+
+@media (max-width: 767px) {
+  #overlay {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+  }
 }
