@@ -1,10 +1,10 @@
 import React from "react"
 import WavesPhoto from "../assets/waves.jpg"
-import '../style-sheets/waves.css'
+import '../style-sheets/Waves.css'
 
 const Waves = () =>{
     return(
-        <img src = {WavesPhoto}/>
+        <img className="waves" src = {WavesPhoto}/>
 )
 }
 export default Waves
