@@ -1,0 +1,22 @@
+#back-to-top-btn {
+    display: none; /* Ocultar el botón por defecto */
+    position: fixed; /* Posición fija para que el botón se mantenga en la misma posición en la ventana */
+    bottom: 20px; /* Posicionamiento en la parte inferior de la ventana */
+    right: 20px; /* Posicionamiento a la derecha de la ventana */
+    font-size: 20px; /* Tamaño de fuente */
+    background-color: rgb(9, 117, 101); /* Color de fondo */
+    color: #fff; /* Color de texto */
+    border: none; /* Sin borde */
+    border-radius: 50%; /* Forma de círculo */
+    cursor: pointer; /* Cambio de cursor al pasar el ratón sobre el botón */
+    padding: 15px; /* Espaciado interior */
+    transition: opacity 0.4s ease-in-out; /* Animación de transición de opacidad */
+   
+  }
+  
+  #back-to-top-btn:hover {
+    opacity: 0.8; /* Opacidad reducida al pasar el ratón sobre el botón */
+  }
+  
+
+  

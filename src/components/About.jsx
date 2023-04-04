@@ -18,9 +18,24 @@ const About = () => {
                 ¡¡ Todo para que tu experiencia laboral sea ideal. !!
               </p>
               <div style={{display: 'flex', marginTop: '2rem', justifyContent: 'space-around'}}>
+
+              <div style={{width: "33%"}}>
                 <span><h1 className="about_highlight">Misión</h1></span>
+                <p>Construir espacios de trabajo dinamicos y diferentes, apoyándonos en conceptos modernos donde prime el bienestar y la naturaleza logrando asi una mejor interacción entre ambiente y usuario.</p>
+                </div>
+                <div style={{width: "33%"}}>
                 <span><h1 className="about_highlight">Visión</h1></span>
+                <p>Consolidarnos en el mercado como una empresa caracterizada por superar las expectativas de cada uno de nuestros clientes, por la calidad, cumplimiento, puntualidad, innovación y procesos simples.</p>
+                </div>
+                <div style={{width: "33%"}}>
                 <span><h1 className="about_highlight">Valores</h1></span>
+                <p><strong>Comulgamos</strong> con la idea de que todo parte desde el amor por lo que hacemos, por eso nos define.</p>
+                <p>La <strong>Honestidad</strong> en cada parte del proceso.</p>
+                <p>La <strong>Responsabilidad</strong> con aliados y colaboradores.</p>
+                <p>La <strong>Pasión</strong>por lo que hacemos y creemos.</p>
+                <p>El <strong>Compromiso</strong>en todos los niveles.</p>
+                <p>El <strong>Respeto</strong>por cada una de las personas.</p>
+                </div>
               </div>
             </div>
             <div style={{flex: 1, display: 'flex', justifyContent: 'center', width:'25%', textAlign: 'justify'}}>
