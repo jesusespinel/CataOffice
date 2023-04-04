@@ -1,31 +1,53 @@
 import '../style-sheets/contact.css';
+import Location from '../assets/location.jpg';
 
 const Contact = () => {
   return (
   <div className='contact_c'>
     <div id="overlay">
       <form id="myform">
-        <h1>Contáctanos</h1>
+        <h1 id="form_title">Contáctanos</h1>
         <div className="custom_f">
-          <label htmlFor="name">Name</label>
-          <input id="name" type="text" placeholder="Enter your name" />
+          <input id="name" type="text" placeholder="Nombre" />
         </div>
-        <div>
-          <label htmlFor="email">Email</label>
-          <input id="email" type="email" placeholder="Enter your email" />
+        <div className="custom_f">
+          <input id="company_name" type="text" placeholder="Nombre de empresa" />
         </div>
-        <div>
-          <label htmlFor="message">Message</label>
-          <input id="textarea" type="textarea" placeholder="Enter your message" />
+        <div className="custom_f"> 
+          <input id="email" type="email" placeholder="Email" />
         </div>
-        <div>
+        <div className="custom_f">
+          <textarea placeholder="Escríbenos un mensaje"></textarea>
+        </div>
+        <div className="custom_f">
+          <select>
+            <option disabled selected>Tipo de proyecto</option>
+            <option>Diseño</option>
+            <option>Presupuesto</option>
+            <option>Remodelación</option>
+            <option>Obra completa</option>
+          </select>
+        </div>
+        <div className="custom_f">
+          <select>
+            <option disabled selected>¿Cómo nos conociste?</option>
+            <option>Redes sociales</option>
+            <option>Email</option>
+            <option>Referido</option>
+            <option>Google</option>
+          </select>
+        </div>
+        <div className="custom_f">
           <button type="submit">Send</button>
         </div>
+
+       
       </form>
 
       <div className="icon-container">
         <img src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-instagram-new-circle-512.png" alt="instagram icon" />
         <img src="https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-linkedin-circle-512.png" alt="linkedin icon" />
+        <img src={Location} alt="location icon"/>
       </div>
     </div>
   </div>
