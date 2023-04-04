@@ -1,3 +1,23 @@
 .contact_c {
   background-image: url('../assets/Picture_2.jpg');
+  display: flex;
+  justify-content: flex-end;
+}
+
+#overlay {
+  width: 40%;
+  
+}
+
+.icon-container {
+  display: flex;
+}
+
+.icon-container > img {
+  width: 80px;
+  height: 80px;
+}
+
+.custom_f > label{
+  
 }
