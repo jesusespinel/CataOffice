@@ -4,7 +4,7 @@ import '../style-sheets/about.css';
 const About = () => {
   return(
       <>
-          <div style={{display: 'flex', flexWrap: 'wrap'}}>
+          <div style={{display: 'flex', flexWrap: 'wrap', backgroundColor: '#ECEAC3'}}>
             <div style={{flex: 1, marginLeft: '5%', marginTop: '10%' }}>
               <h1 className="about_highlight">¿Quiénes somos?</h1>
               <p style={{fontSize: '1.2rem', lineHeight: 1.5}}>
@@ -39,7 +39,7 @@ const About = () => {
               </div>
             </div>
             <div style={{flex: 1, display: 'flex', justifyContent: 'center', width:'25%', textAlign: 'justify'}}>
-              <img src={AboutImage} style={{maxWidth: '100%', height: 'auto'}}/>
+              <img src={AboutImage} style={{maxWidth: '100%', height: '100%'}}/>
             </div>
           </div>
       </>

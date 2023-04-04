@@ -1,16 +1,18 @@
 .contact_c {
   background-image: url('../assets/Picture_2.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
   display: flex;
   justify-content: flex-end;
 }
 
 #overlay {
-  width: 40%;
-  
+  width: 33%;
 }
 
 .icon-container {
   display: flex;
+  margin-bottom: 20%;
 }
 
 .icon-container > img {
@@ -18,6 +20,64 @@
   height: 80px;
 }
 
-.custom_f > label{
+.custom_f {
+  margin: 2%;
+}
+
+#myform {
+  margin: 20% 0px 10% 0px;
+  width: 60%; 
+}
+
+#form_title {
+  background-color: #4CAA76;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+
+.custom_f > input, .custom_f > textarea, .custom_f > select {
+  width: 100%;
+  font-size: 18px;
+  margin-top: 4px;
+  background-color: #4CAA76;
+  border: 0px;
   
+  color: white;
+  padding: 4px;
+}
+
+select {
+  border-radius: 5px;
+}
+
+.custom_f > input {
+  height: 24px;
+  border-radius: 10px;
+}
+
+.custom_f > textarea {
+  height: 72px;
+  border-radius: 10px;
+}
+
+::placeholder {
+  color: white;
+}
+
+.custom_f > label{
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.custom_f > button {
+  margin-top: 5%;
+  width: 30%;
+  padding: 1% 0px;
+  font-size: 18px;
+  border-radius: 10px;
+  background-color: #4CAA76;
+  border: 0px;
+  color: white;
 }
