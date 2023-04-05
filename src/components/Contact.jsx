@@ -38,7 +38,7 @@ const Contact = () => {
           </select>
         </div>
         <div className="custom_f">
-          <button type="submit">Send</button>
+          <button type="submit">Enviar</button>
         </div>
 
        

@@ -1,7 +1,6 @@
 .background {
     display: flex;
     background-color: rgb(9, 117, 101);
-    min-height: 100vh;
     width: 100%;
 }
 
@@ -80,15 +79,57 @@
     }
     .logo img {
       width: 80%;
-      margin-left: 0px;
+      margin: 0px auto;
       margin-top: 30px;
     }
     .logo-container button {
       margin-left: auto;
       margin-right: auto;
     }
+    .logo-container2 {
+      width: 85%;
+      margin-top: 27px;
+    }
+    .logo-container2 img {
+      height: 510px;
+    }
+    .text-container {
+      margin-top: 0px;
+    }
+    .text-container > h1, .text-container > p {
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
     .background {
       justify-content: space-around;
+    }
+  }
+
+  @media (max-width: 1023px) {
+    .logo-container {
+      width: 83%;
+    }
+    .logo {
+      width: 100%;
+    }
+    .logo-container button {
+      font-size: 20px;
+      width: 90%;
+      height: 32px;
+    }
+    .text-container {
+      width: 83%;
+    }
+    .logo-container2 img {
+      height: 480px;
+    }
+    .text-container h1 {
+      font-size: 32px;
+    }
+    .text-container p {
+      font-size: 16px;
+      width: 100%;
     }
   }
   

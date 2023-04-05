@@ -5,7 +5,7 @@ const About = () => {
   return(
       <>
           <div className="about_c">
-            <div style={{flex: 1, marginLeft: '5%', marginTop: '10%' }}>
+            <div style={{flex: 1}}>
               <h1 className="about_highlight">¿Quiénes somos?</h1>
               <p style={{fontSize: '1.2rem', lineHeight: 1.5}}>
                 Nacimos como una iniciativa de construir oficinas modernas que se acoplen a las necesidades del cliente pero que sobre todo, generen ambientes óptimos para la creatividad e ingenio de los colaboradores.
@@ -17,7 +17,7 @@ const About = () => {
                 Desde Cata Office realizamos el diseño contigo, a tu medida. Y buscamos todas las condiciones necesarias para la obra civil, acabados, redes electricas, mobiliario, tecnología y asesoramiento en el mantemiento de tus instalaciones.
                 ¡¡ Todo para que tu experiencia laboral sea ideal. !!
               </p>
-              <div style={{display: 'flex', marginTop: '2rem', justifyContent: 'space-around'}}>
+              <div id="about_info">
 
               <div style={{width: "33%"}}>
                 <span><h1 className="about_highlight">Misión</h1></span>
