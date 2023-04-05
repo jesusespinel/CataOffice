@@ -7,6 +7,7 @@ import Hero from './components/Hero'
 import About from './components/About'
 import Contact from './components/Contact'
 import BackTopBtn from './components/BackTopBtn'
+import Services from './components/Services'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     <NavBar/>
     <Hero/>
     <About/>
+    <Services/> 
     <Contact/>
     <BackTopBtn/>
     </div>
