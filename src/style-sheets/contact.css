@@ -22,19 +22,22 @@
 }
 
 .custom_f {
-  margin: 2%;
+  margin: 2% 0px;
+  width: 100%;
 }
 
 #myform {
   margin: 20% 0px 10% 0px;
-  width: 60%; 
+  width: 70%; 
 }
 
 #form_title {
+  width: 100%;
   background-color: #4CAA76;
   border-radius: 10px;
   text-align: center;
   color: white;
+  padding: 0px 4px;
 }
 
 .custom_f > input, .custom_f > textarea, .custom_f > select {
@@ -43,7 +46,6 @@
   margin-top: 4px;
   background-color: #4CAA76;
   border: 0px;
-  
   color: white;
   padding: 4px;
 }
@@ -103,7 +105,7 @@ select {
     background-size: 100% 50%;
   }
 }
-  @media (max-width: 1023px) {
+  @media (min-width: 768px) and (max-width: 1023px) {
     #overlay {
       width: 100%;
       display: flex;
@@ -113,5 +115,8 @@ select {
     }
     #myform {
       width: 80%;
+    }
+    .icon-container {
+      margin-bottom: 10%;
     }
   }

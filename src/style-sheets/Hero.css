@@ -77,12 +77,24 @@
     .background {
       flex-wrap: wrap;
     }
+    .logo {
+      width: 100%;
+    }
     .logo img {
       width: 80%;
       margin: 0px auto;
       margin-top: 30px;
     }
+    .logo-container {
+      width: 85%;
+    }
+    .text-container {
+      width: 85%;
+    }
     .logo-container button {
+      font-size: 20px;
+      width: 90%;
+      height: 32px;
       margin-left: auto;
       margin-right: auto;
     }
@@ -101,14 +113,21 @@
       margin-left: auto;
       margin-right: auto;
     }
+    .text-container h1 {
+      font-size: 32px;
+    }
+    .text-container p {
+      font-size: 16px;
+      width: 100%;
+    }
     .background {
       justify-content: space-around;
     }
   }
 
-  @media (max-width: 1023px) {
+  @media (min-width: 768px) and (max-width: 1023px) {
     .logo-container {
-      width: 83%;
+      width: 40%;
     }
     .logo {
       width: 100%;
@@ -119,7 +138,7 @@
       height: 32px;
     }
     .text-container {
-      width: 83%;
+      width: 40%;
     }
     .logo-container2 img {
       height: 480px;
