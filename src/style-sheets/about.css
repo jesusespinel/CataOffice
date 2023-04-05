@@ -14,7 +14,26 @@
   margin-bottom: 1rem;
 }
 
+#about_info {
+  display: flex;
+  flex-wrap: wrap; 
+  margin-top: 2rem; 
+  justify-content: space-around;
+}
+
 @media (max-width: 767px) {
+  .about_c {
+    flex-wrap: wrap;
+  }
+  .about_c > #pic {
+    width: 100%;
+  }
+  #about_info > div {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 1023px) {
   .about_c {
     flex-wrap: wrap;
   }

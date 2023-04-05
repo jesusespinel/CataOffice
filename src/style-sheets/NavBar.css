@@ -32,7 +32,7 @@ nav {
     background-color: #E0CC0F;
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     nav {
       height: auto;
     }

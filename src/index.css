@@ -17,3 +17,9 @@
 .my-float{
 	margin-top:16px;
 }
+
+@media (max-width: 767px) {
+	.float {
+		bottom: 40px;
+	}
+}
