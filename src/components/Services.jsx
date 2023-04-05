@@ -1,86 +1,45 @@
+
 import React from 'react';
+import '../style-sheets/Services.css'; // Archivo de estilos CSS
 
-import '../style-sheets/Services.css';
-
-import { FaHammer, FaBrush, FaWrench, FaTruckPickup, FaBroom, FaPlug } from 'react-icons/fa';
-import '../assets/location.jpg';
-import image from '../assets/location.jpg';
-
-const Services= ()=> {
+function MyComponent() {
   return (
-    <section className="services">
-      <div className="services-container">
-        <div className="services-image">
-          <img src={image} alt="Services" />
-        </div>
-        <div className="services-content">
-          <h2 className="section-heading">Our Services</h2>
-          <div className="services-cards">
-            <div className="service-card">
-              <div className="service-icon">
-                <FaHammer />
-              </div>
-              <h3>Service Heading</h3>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
-                consequatur necessitatibus eaque.
-              </p>
-            </div>
-            <div className="service-card">
-              <div className="service-icon">
-                <FaBrush />
-              </div>
-              <h3>Service Heading</h3>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
-                consequatur necessitatibus eaque.
-              </p>
-            </div>
-            <div className="service-card">
-              <div className="service-icon">
-                <FaWrench />
-              </div>
-              <h3>Service Heading</h3>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
-                consequatur necessitatibus eaque.
-              </p>
-            </div>
-            <div className="service-card">
-              <div className="service-icon">
-                <FaTruckPickup />
-              </div>
-              <h3>Service Heading</h3>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
-                consequatur necessitatibus eaque.
-              </p>
-            </div>
-            <div className="service-card">
-              <div className="service-icon">
-                <FaBroom />
-              </div>
-              <h3>Service Heading</h3>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
-                consequatur necessitatibus eaque.
-              </p>
-            </div>
-            <div className="service-card">
-              <div className="service-icon">
-                <FaPlug />
-              </div>
-              <h3>Service Heading</h3>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
-                consequatur necessitatibus eaque.
-              </p>
-            </div>
+    <div className="container">
+      <div className="left-column">
+        <img src="https://picsum.photos/200/300" alt="Random" />
+      </div>
+      <div className="right-column">
+        <h1 className="title">Título centrado</h1>
+        <div className="cards-container">
+          <div className="card">
+            <i className="fas fa-palette"></i>
+            <h3>Icono de diseño</h3>
+            <p>Lorem Ipsum</p>
+          </div>
+          <div className="card">
+            <i className="fas fa-dollar-sign"></i>
+            <h3>Presupuesto</h3>
+            <p>Lorem Ipsum</p>
+          </div>
+          <div className="card">
+            <i className="fas fa-stopwatch"></i>
+            <h3>Ejecución</h3>
+            <p>Lorem Ipsum</p>
+          </div>
+          <div className="card">
+            <i className="fas fa-calendar-check"></i>
+            <h3>Entrega</h3>
+            <p>Lorem Ipsum</p>
+          </div>
+          <div className="card">
+            <i className="fas fa-wrench"></i>
+            <h3>Mantenimiento</h3>
+            <p>Lorem Ipsum</p>
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 }
 
-export default Services;
+export default MyComponent;
