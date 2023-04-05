@@ -151,4 +151,28 @@
       width: 100%;
     }
   }
+
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    .logo {
+      width: 360px;
+    }
+    .text-container h1 {
+      font-size: 38px;
+    }
+    .text-container p {
+      font-size: 19px;
+      width: 100%;
+    }
+    .logo-container {
+      width: 40%;
+    }
+    .logo-container button {
+      font-size: 24px;
+      width: 75%;
+      height: 32px;
+    }
+    .logo-container2 img {
+      height: 510px;
+    }
+  }
   

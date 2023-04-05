@@ -38,6 +38,7 @@
   text-align: center;
   color: white;
   padding: 0px 4px;
+  padding-right: 0px;
 }
 
 .custom_f > input, .custom_f > textarea, .custom_f > select {
@@ -48,6 +49,7 @@
   border: 0px;
   color: white;
   padding: 4px;
+  padding-right: 0px;
 }
 
 select {
@@ -105,18 +107,25 @@ select {
     background-size: 100% 50%;
   }
 }
-  @media (min-width: 768px) and (max-width: 1023px) {
-    #overlay {
-      width: 100%;
-      display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
-      
-    }
-    #myform {
-      width: 80%;
-    }
-    .icon-container {
-      margin-bottom: 10%;
-    }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  #overlay {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
   }
+  #myform {
+    width: 80%;
+  }
+  .icon-container {
+    margin-bottom: 10%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  #myform {
+    width: 90%;
+  }
+}
