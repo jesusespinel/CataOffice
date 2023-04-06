@@ -20,6 +20,14 @@
 
 @media (max-width: 767px) {
 	.float {
+		right: 30px;
 		bottom: 40px;
+	}
+}
+
+@media (min-width: 1024px) and (max-width:1439px) {
+	.float {
+		right: 25px;
+		bottom: 30px;
 	}
 }
