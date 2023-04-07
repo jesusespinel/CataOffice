@@ -182,7 +182,7 @@ const Services= ()=> {
                 </div>
             </div>
             <div className='services-image-container' style={{width: '50%', display: 'flex', alignItems: 'center'}}>
-                <img src={AboutImage} style={{maxWidth: '80%', height: '100%'}}/>
+                <img src={AboutImage} style={{maxWidth: '100%', height: '100%'}}/>
             </div>
         </div>
   );

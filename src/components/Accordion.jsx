@@ -1,6 +1,7 @@
 import React from "react"
 import { useState } from "react"
-import { accordionData } from "../utils/content" 
+import { accordionData } from "../utils/content"
+import '../style-sheets/Accordion.css'
 
 const Accordion = () =>{
 
@@ -22,7 +23,7 @@ return (
                           <h2>{item.title}</h2>
                           <span>{selected === i ? '-' : '+' }</span>
                      </div>
-                     <div className={ selected === i? "content show":"content"}>{item.content}</div>
+                     <div className={ selected === i? "content-show":"content"}>{item.content}</div>
                      
                 </div>
             )

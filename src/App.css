@@ -1,7 +1,5 @@
-html {
-  width: 100%;
-}
-
 body {
-  margin: 0px !important;
+    background-image: url('../assets/arena.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 }
