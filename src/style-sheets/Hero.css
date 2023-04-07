@@ -12,9 +12,10 @@
     margin-top: 10px;
   }
   
-.logo {
+  .logo {
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 440px;
   }
   
@@ -28,10 +29,11 @@
   
 
   .logo-container button {
+    position: absolute;
     font-size: 36px;
     font-weight: bold;
-    margin-top: 10px;
-    margin-left: 20px;
+    margin-top: 325px;
+    margin-left: 65px;
     background-color: #E0CC0F;
     color: black;
     border-radius: 5px;
@@ -81,12 +83,13 @@
       width: 100%;
     }
     .logo img {
-      width: 80%;
+      width: 90%;
       margin: 0px auto;
       margin-top: 30px;
     }
     .logo-container {
       width: 85%;
+      margin-top: 90%;
     }
     .text-container {
       width: 85%;
@@ -99,11 +102,11 @@
       margin-right: auto;
     }
     .logo-container2 {
-      width: 85%;
+      width: 100%;
       margin-top: 27px;
     }
     .logo-container2 img {
-      height: 510px;
+      height: 480px;
     }
     .text-container {
       margin-top: 0px;
@@ -114,10 +117,10 @@
       margin-right: auto;
     }
     .text-container h1 {
-      font-size: 32px;
+      font-size: 36px;
     }
     .text-container p {
-      font-size: 16px;
+      font-size: 18px;
       width: 100%;
     }
     .background {
@@ -144,10 +147,10 @@
       height: 480px;
     }
     .text-container h1 {
-      font-size: 32px;
+      font-size: 36px;
     }
     .text-container p {
-      font-size: 16px;
+      font-size: 18px;
       width: 100%;
     }
   }
