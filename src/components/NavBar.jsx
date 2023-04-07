@@ -7,7 +7,7 @@ const NavBar = () =>{
   return(
     <nav>
       <ul>
-        <li>
+        <li id="ln">
           <div className="logo-nav">
             <img src ={CataOffice} alt= "Logo"/>
           </div>
