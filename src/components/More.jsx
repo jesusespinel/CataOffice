@@ -1,5 +1,6 @@
 import Escritorios from "../assets/Escritorios.jpeg"
 import '../style-sheets/More.css'
+import Accordion from "./Accordion";
 
 const More = () =>{
     return(
@@ -16,6 +17,7 @@ const More = () =>{
           <h1>Lo que hacemos</h1>
           <p>Creamos tu espacio de trabajo, desde la concepción de la idea, hasta la entrega del mismo, listo para ocupar,asumiendo toda la gestión e incluyendo mobiliario básico.</p>
         </div>
+        <Accordion/>
       </div>
     </div>
   );
