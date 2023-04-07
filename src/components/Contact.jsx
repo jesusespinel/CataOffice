@@ -6,18 +6,18 @@ const Contact = () => {
   <div className='contact_c'>
     <div id="overlay">
       <form id="myform">
-        <h1 id="form_title">Contáctanos</h1>
+        ¡<h1 id="form_title">¡Hablemos!</h1>
         <div className="custom_f">
           <input id="name" type="text" placeholder="Nombre" />
         </div>
         <div className="custom_f">
-          <input id="company_name" type="text" placeholder="Nombre de empresa" />
+          <input id="company_name" type="text" placeholder="Nombre de tu empresa" />
         </div>
         <div className="custom_f"> 
           <input id="email" type="email" placeholder="Email" />
         </div>
         <div className="custom_f">
-          <textarea placeholder="Escríbenos un mensaje"></textarea>
+          <textarea placeholder="Agrega cualquier detalle que nos quieras dejar saber"></textarea>
         </div>
         <div className="custom_f">
           <select>

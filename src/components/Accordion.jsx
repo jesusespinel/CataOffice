@@ -23,7 +23,7 @@ return (
                           <h2>{item.title}</h2>
                           <span>{selected === i ? '-' : '+' }</span>
                      </div>
-                     <div className={ selected === i? "content-show":"content"}>{item.content}</div>
+                     <div className={ selected === i? "content-show":"content"}><u>{item.content}</u></div>
                      
                 </div>
             )

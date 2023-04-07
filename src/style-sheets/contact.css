@@ -1,5 +1,5 @@
 .contact_c {
-  background-image: url('../assets/Picture_2.jpg');
+  background: linear-gradient(rgba(128,128,128,0.5), rgba(128,128,128,0.5)), url('../assets/contact.jpeg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   display: flex;
@@ -36,7 +36,7 @@
   background-color: #4CAA76;
   border-radius: 10px;
   text-align: center;
-  color: white;
+  color: ye;
   padding: 0px 4px;
   padding-right: 0px;
 }
@@ -45,9 +45,9 @@
   width: 100%;
   font-size: 18px;
   margin-top: 4px;
-  background-color: #4CAA76;
+  background-color: yellow;
   border: 0px;
-  color: white;
+  color: #4CAA76;;
   padding: 4px;
   padding-right: 0px;
 }
@@ -67,7 +67,8 @@ select {
 }
 
 ::placeholder {
-  color: white;
+  color: green;
+  font-weight: bold;
 }
 
 .custom_f > label{
