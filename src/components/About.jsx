@@ -6,37 +6,20 @@ const About = () => {
       <>
           <div className="about_c">
             <div style={{flex: 1}}>
-              <h1 className="about_highlight">¿Quiénes somos?</h1>
+              <h1 className="about_highlight">¿Qué es Cata Office?</h1>
               <p style={{fontSize: '1.2rem', lineHeight: 1.5}}>
-                Nacimos como una iniciativa de construir oficinas modernas que se acoplen a las necesidades del cliente pero que sobre todo, generen ambientes óptimos para la creatividad e ingenio de los colaboradores.
+                Somos una empresa dedicada al diseño, planeación,ejecución y entrega de obras, listas para iniciar operaciones,principalmente dedicadas al ámbito laboral, más no limitadas al mismo.
               </p>
+              <h1 className="about_highlight">Nuestro Valor</h1>
               <p style={{fontSize: '1.2rem', lineHeight: 1.5}}>
-                Pasamos más tiempo en nuestro trabajo qué en cualquier otro lugar en el día a día , por tal motivo, es fundamental tener espacios que den prioridad a la luz natural , zonas de descanso y sobre todo puestos de trabajo ergonomicos que ayudan a la concentración de la tarea.
+               Al ser una empresa joven, nos presentamos como tal, buscando conectar con Clientes y Aliados a través de comunicación y procesos cercanos y simplificados.
               </p>
-              <p style={{fontSize: '1.2rem', lineHeight: 1.5}}>
-                Desde Cata Office realizamos el diseño contigo, a tu medida. Y buscamos todas las condiciones necesarias para la obra civil, acabados, redes electricas, mobiliario, tecnología y asesoramiento en el mantemiento de tus instalaciones.
-                ¡¡ Todo para que tu experiencia laboral sea ideal. !!
-              </p>
-              <div id="about_info">
 
-              <div style={{width: "33%"}}>
-                <span><h1 className="about_highlight">Misión</h1></span>
-                <p>Construir espacios de trabajo dinamicos y diferentes, apoyándonos en conceptos modernos donde prime el bienestar y la naturaleza logrando asi una mejor interacción entre ambiente y usuario.</p>
-                </div>
-                <div style={{width: "33%"}}>
-                <span><h1 className="about_highlight">Visión</h1></span>
-                <p>Consolidarnos en el mercado como una empresa caracterizada por superar las expectativas de cada uno de nuestros clientes, por la calidad, cumplimiento, puntualidad, innovación y procesos simples.</p>
-                </div>
-                <div style={{width: "33%"}}>
-                <span><h1 className="about_highlight">Valores</h1></span>
-                <p><strong>Comulgamos</strong> con la idea de que todo parte desde el amor por lo que hacemos, por eso nos define.</p>
-                <p>La <strong>Honestidad</strong> en cada parte del proceso.</p>
-                <p>La <strong>Responsabilidad</strong> con aliados y colaboradores.</p>
-                <p>La <strong>Pasión</strong>por lo que hacemos y creemos.</p>
-                <p>El <strong>Compromiso</strong>en todos los niveles.</p>
-                <p>El <strong>Respeto</strong>por cada una de las personas.</p>
-                </div>
-              </div>
+              <h1 className="about_highlight">Cata Office en una frase</h1>
+              <p style={{fontSize: '1.2rem', lineHeight: 1.5}}>
+                Recibimos un espacio.Entregamos una empresa.
+              </p>
+              
             </div>
             <div id="pic">
               <img src={AboutImage} style={{maxWidth: '100%', height: '100%'}}/>

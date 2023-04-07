@@ -8,6 +8,7 @@ import About from './components/About'
 import Contact from './components/Contact'
 import BackTopBtn from './components/BackTopBtn'
 import Services from './components/Services'
+import More from './components/More'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
     <NavBar/>
     <Hero/>
     <About/>
+    <More/>
     <Services/> 
     <Contact/>
     <BackTopBtn/>
