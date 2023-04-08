@@ -1,7 +1,26 @@
+#template {
+  position: absolute;
+  width: 100%;
+  height: 135%;
+}
+
+.carrousel {
+  position: absolute;
+  width: 100%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+}
+
+#mujer {
+  width: 720px;
+  height: 720px;
+}
+
 .background {
     display: flex;
-    background-color: rgb(9, 117, 101);
-    width: 100%;
 }
 
 .logo-container {
@@ -16,7 +35,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 440px;
+    width: 392px;
+    height: 245px;
   }
   
   
@@ -24,7 +44,11 @@
     width: 100%;
     height: 100%;
     margin-left: 30px;
-    margin-top: 30px;
+    margin-top: 120px;
+  }
+
+  #cat {
+    position: relative;
   }
   
 
@@ -32,11 +56,11 @@
     position: absolute;
     font-size: 36px;
     font-weight: bold;
-    margin-top: 325px;
-    margin-left: 65px;
+    margin-top: 525px;
     background-color: #E0CC0F;
-    color: black;
-    border-radius: 5px;
+    color: #555150;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
     border: 0px;
     width: 300px;
     height: 60px;
@@ -44,22 +68,28 @@
 
   .text-container {
     display: flex;
+    position: relative;
     flex-direction: column;
     justify-content: flex-start;
-    margin-top: 7.5%;
+    margin-top: 18%;
+    right: 100px;
   }
   
   .text-container h1 {
-    font-size: 54px;
-    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
-    color: yellow;
+    font-size: 48px;
+    text-shadow:  2px 0 2px #393838, 0 2px 2px #393838;
+    color: #E0CC0F;
+    margin-bottom: 8px;
+    width: 80%;
   }
   
   .text-container p {
-    font-size: 27px;
+    font-size: 24px;
     width: 290px;
     text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
     color: white;
+    margin-top: 8px;
+    margin-bottom: 8px;
   }
 
   
@@ -70,9 +100,11 @@
   
   .logo-container2 img {
     display: block;
-    max-width: 100%;
-    height: 680px;
-    border-radius: 10px;
+    position: relative;
+    width: 136.1%;
+    height: 692px;
+    top: 13px;
+    right: 73px;
   }
 
   @media (max-width: 767px) {
