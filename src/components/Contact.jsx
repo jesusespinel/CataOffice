@@ -118,7 +118,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div>
+        <div className='container-form'>
           <form id="myform">
             <div className="custom_f">
               <input id="name" type="text" placeholder="Escribe tu nombre" />
@@ -161,8 +161,8 @@ const Contact = () => {
           <div className="icon-container">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="43"
-              height="43"
+              width="70"
+              height="70"
               fill="none"
               stroke="yellow"
               strokeLinecap="round"
@@ -177,8 +177,8 @@ const Contact = () => {
             </svg>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="45"
-              height="45"
+              width="70"
+              height="70"
               fill="none"
               stroke="yellow"
               strokeLinecap="round"
@@ -193,8 +193,8 @@ const Contact = () => {
             </svg>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="50"
-              height="45"
+              width="70"
+              height="70"
               fill="none"
               stroke="yellow"
               strokeLinecap="round"
