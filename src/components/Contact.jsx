@@ -1,4 +1,6 @@
 import '../style-sheets/contact.css';
+import Eduardo from "../assets/eduardo.jpeg"
+import Aaron from "../assets/aaron.jpeg"
 
 const Contact = () => {
   return (
@@ -7,13 +9,13 @@ const Contact = () => {
       <div id="overlay">
         <div className="contact_info">
           <div className="person">
-            {/* <img src={image1} alt="Person 1" /> */}
+             <img src={Eduardo} alt="Person 1" /> 
             <div className="name">Jesús Espinel</div>
             <div className="contact">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
+                width="70"
+                height="70"
                 fill="none"
                 stroke="yellow"
                 strokeLinecap="round"
@@ -27,8 +29,8 @@ const Contact = () => {
               <span>313 3477356</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="30"
-                height="30"
+                width="70"
+                height="70"
                 fill="none"
                 stroke="yellow"
                 strokeLinecap="round"
@@ -44,8 +46,8 @@ const Contact = () => {
               <span>jesus_eduardo1</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
+                width="70"
+                height="70"
                 fill="none"
                 stroke="yellow"
                 strokeLinecap="round"
@@ -63,13 +65,13 @@ const Contact = () => {
         
     
           <div className="person">
-            
+          <img src={Aaron} alt="Person 1" /> 
             <div className="name">Aaron Strober</div>
             <div className="contact">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
+                width="70"
+                height="70"
                 fill="none"
                 stroke="yellow"
                 strokeLinecap="round"
@@ -83,8 +85,8 @@ const Contact = () => {
               <span>304 4571600</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="30"
-                height="30"
+                width="70"
+                height="70"
                 fill="none"
                 stroke="yellow"
                 strokeLinecap="round"
@@ -100,8 +102,8 @@ const Contact = () => {
               <span>aaronstrober</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
+                width="70"
+                height="70"
                 fill="none"
                 stroke="yellow"
                 strokeLinecap="round"
