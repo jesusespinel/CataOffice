@@ -1,3 +1,4 @@
+
 export  const accordionData = [
     {
       title: 'Misión',
@@ -17,3 +18,6 @@ export  const accordionData = [
       El respeto por cada una de las personas`
     }
   ];
+
+
+ 
