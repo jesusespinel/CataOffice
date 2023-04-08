@@ -2,44 +2,6 @@ import '../style-sheets/contact.css';
 
 const Contact = () => {
   return (
-<<<<<<< HEAD
-  <div className='contact_c'>
-    <div id="overlay">
-      <form id="myform">
-        ¡<h1 id="form_title">¡Hablemos!</h1>
-        <div className="custom_f">
-          <input id="name" type="text" placeholder="Nombre" />
-        </div>
-        <div className="custom_f">
-          <input id="company_name" type="text" placeholder="Nombre de tu empresa" />
-        </div>
-        <div className="custom_f"> 
-          <input id="email" type="email" placeholder="Email" />
-        </div>
-        <div className="custom_f">
-          <textarea placeholder="Agrega cualquier detalle que nos quieras dejar saber"></textarea>
-        </div>
-        <div className="custom_f">
-          <select>
-            <option disabled selected>Tipo de proyecto</option>
-            <option>Diseño</option>
-            <option>Presupuesto</option>
-            <option>Remodelación</option>
-            <option>Obra completa</option>
-          </select>
-        </div>
-        <div className="custom_f">
-          <select>
-            <option disabled selected>¿Cómo nos conociste?</option>
-            <option>Redes sociales</option>
-            <option>Email</option>
-            <option>Referido</option>
-            <option>Google</option>
-          </select>
-        </div>
-        <div className="custom_f">
-          <button type="submit">Enviar</button>
-=======
     <div className='contact_c'>
       <h1 id="form_title">¡Hablemos!</h1>
       <div id="overlay">
@@ -154,7 +116,6 @@ const Contact = () => {
               <span>astrober@cataoffice.com</span>
             </div>
           </div>
->>>>>>> 30bce67928c98db4664e549fc996bea761d9733f
         </div>
 
         <div>
