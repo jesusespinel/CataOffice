@@ -11,7 +11,7 @@ const Services= ()=> {
     <div className="service component__space" id="Services">
             
 
-            <div className="container" style={{width: "75%"}}>
+            <div className="container-s" style={{width: "75%"}}>
                 <div className="heading">
                     <h1 className="heading">Proceso de Trabajo</h1>
                     
@@ -24,8 +24,8 @@ const Services= ()=> {
                             <div className="icon">
                             <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="0.9em"
-                    height="0.9em"
+                    width="1.35em"
+                    height="1.35em"
                     version="1"
                     viewBox="0 0 512 512"
                     >
@@ -53,8 +53,8 @@ const Services= ()=> {
                             <div className="icon">
                             <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="0.9em"
-      height="0.9em"
+      width="1.35em"
+      height="1.35em"
       version="1"
       viewBox="0 0 512 512"
     >
@@ -86,8 +86,8 @@ const Services= ()=> {
                             <div className="icon">
                             <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        width="1em"
-                        height="1em"
+                        width="1.35em"
+                        height="1.35em"
                         version="1"
                         viewBox="0 0 512 512"
                         >
@@ -123,8 +123,8 @@ const Services= ()=> {
                             <div className="icon">
                             <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        width="1em"
-                        height="1em"
+                        width="1.35em"
+                        height="1.35em"
                         version="1"
                         viewBox="0 0 512 512"
                         >
@@ -152,8 +152,8 @@ const Services= ()=> {
                             <div className="icon">
                             <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        width="1em"
-                        height="1em"
+                        width="1.35em"
+                        height="1.35em"
                         version="1"
                         viewBox="0 0 512 512"
                         >

@@ -20,7 +20,7 @@ function App() {
     // navBar.style.display = "flex";
     if (window.pageYOffset > 25 && window.pageYOffset < 160) {
       logoImageNav.animate([{opacity: "1"}, {opacity: "0"}], {duration: 1000, iterations: 1});
-      logoImage.animate([{ opacity: "0", width: "100px"},{ opacity: "1", width: "100%"}],
+      logoImage.animate([{bottom: "100px", opacity: "0", width: "100px"},{bottom: "0px", opacity: "1", width: "100%"}],
       {duration: 1000,
       iterations: 1});
       logoImageNav.style.opacity = "0";
@@ -33,7 +33,7 @@ function App() {
       // navBar.style.display = "none";
       if (window.pageYOffset > 25 && window.pageYOffset < 160) {
       logoImageNav.animate([{opacity: "0"}, {opacity: "1"}], {duration: 1000, iterations: 1});
-      logoImage.animate([{ opacity: "1", width: "100%"},{ opacity: "0", width: "100px"}],
+      logoImage.animate([{bottom: "0px", opacity: "1", width: "100%"},{bottom: "100px", opacity: "0", width: "100px"}],
       {duration: 1000,
       iterations: 1});
       logoImageNav.style.opacity = "1";
