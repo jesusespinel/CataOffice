@@ -22,9 +22,12 @@
 }
 
 #pic img {
-  width: 100%;
-  position: relative;
-  bottom: 10%;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  bottom: -950px;
+  z-index: 1;
 }
 
 .about_highlight {
