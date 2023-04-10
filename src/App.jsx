@@ -7,6 +7,7 @@ import Contact from './components/Contact'
 import BackTopBtn from './components/BackTopBtn'
 import Services from './components/Services'
 import More from './components/More'
+import Footer from './components/Footer'
 
 function App() {
   const [logo, setLogo] = useState(true);
@@ -52,6 +53,7 @@ function App() {
     <More/>
     <Services/> 
     <Contact/>
+    <Footer/>
     <BackTopBtn/>
     </div>
     
