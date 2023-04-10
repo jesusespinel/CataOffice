@@ -7,7 +7,7 @@ nav {
   height: 50px;
   background-color: rgb(9, 117, 101);
   position: fixed;
-  z-index: 2;
+  z-index: 3;
 }
 
 nav ul {

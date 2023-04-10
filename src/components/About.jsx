@@ -24,7 +24,7 @@ const About = () => {
               
             </div>
             <div id="pic">
-              <img src={AboutImage} style={{maxWidth: '100%'}}/>
+              <img src={AboutImage}/>
             </div>
           </div>
       </>

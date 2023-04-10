@@ -1,15 +1,14 @@
 import React from "react";
 import '../style-sheets/Hero.css';
 import CataOffice from'../assets/cataoffice_copy.png';
-import Template from '../assets/marco-diseño-de-home.png';
+import Waves from '../components/Waves';
 import Mujer from '../assets/mujer.jpeg';
-import Logo2 from '../assets/logo2.png';
+import Logo2 from '../assets/logo2-alt.png';
 
 const Hero = () => {
  
     return(
         <>
-            <img src={Template} alt= "Template" id="template"/>
             <div className="carrousel">
                 <img src={Mujer} alt= "mujer" id="mujer"/>
             </div>
@@ -31,6 +30,7 @@ const Hero = () => {
                 <p>Tú solo muestranos el espacio y nosotros nos encargamos de lo demás.</p>
                 </div>
             </div>
+            <Waves/>
         </>
         
     )

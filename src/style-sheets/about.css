@@ -51,13 +51,19 @@ strong {
   }
   .about_c > #pic {
     width: 100%;
+    height: 360px;
   }
   #about_info > div {
     width: 100% !important;
   }
+  #pic img {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
 }
 
-@media (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .about_c {
     flex-wrap: wrap;
   }

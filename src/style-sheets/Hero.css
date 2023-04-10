@@ -1,9 +1,3 @@
-#template {
-  position: absolute;
-  width: 100%;
-  height: 135%;
-}
-
 .carrousel {
   position: absolute;
   width: 100%;
@@ -11,16 +5,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: -1;
+  z-index: 0;
+  margin-top: 3%;
 }
 
 #mujer {
-  width: 720px;
-  height: 720px;
+  position: relative;
+  width: 47.5615vw;
+  height: 86.515vh;
+  right: 0.15vw;
 }
 
 .background {
     display: flex;
+    background-color: rgb(9, 117, 101);
+    padding-top: 3%;
+    padding-bottom: 5%;
+    z-index: -1;
 }
 
 .logo-container {
@@ -73,6 +74,7 @@
     justify-content: flex-start;
     margin-top: 18%;
     right: 100px;
+    z-index: 2;
   }
   
   .text-container h1 {
@@ -99,21 +101,20 @@
   }
   
   .logo-container2 img {
-    display: block;
     position: relative;
-    width: 52vw;
-    height: 81.6vh;
-    top: 6.6vh;
-    left: 2vw;
+    z-index: 1;
+    width: 47.5615vw;
+    height: 86.515vh;
   }
 
   @media (max-width: 767px) {
-    #template {
-      margin-top: 50vh;
-      height: 100%;
+    .carrousel {
+      margin-top: 79.7vh;
+      height: 81.5%;
     }
     .background {
       flex-wrap: wrap;
+      padding-bottom: 33.333%;
     }
     .logo {
       position: absolute;
@@ -135,6 +136,7 @@
     .logo-container button {
       position: relative;
       margin-top: 240px;
+      margin-bottom: 50px;
       font-size: 20px;
       width: 90%;
       height: 32px;
@@ -143,13 +145,15 @@
     }
     .logo-container2 {
       width: 100%;
-      margin-top: 27px;
     }
     .logo-container2 img {
-      height: 480px;
+      width: 100%;
+      left: 0;
+      top: 0;
     }
     .text-container {
       margin-top: 0px;
+      left: 0;
     }
     .text-container > h1, .text-container > p {
       text-align: center;
@@ -168,14 +172,15 @@
       justify-content: space-around;
     }
     #mujer {
-      width: 100%;
-      margin-top: 50vh;
+      top: 50px;
+      width: 100vw;
+      height: 85vh;
     }
   }
 
   @media (min-width: 768px) and (max-width: 1023px) {
     .background {
-      padding-top: 5%;
+      padding-top: 6%;
     }
     .logo-container {
       width: 40%;
@@ -185,16 +190,18 @@
     }
     .logo-container button {
       font-size: 20px;
-      margin-top: 173px;
+      margin-top: 250px;
       margin-left: 25px;
       width: 160px;
       height: 32px;
     }
     .text-container {
-      width: 40%;
+      width: 45%;
+      right: 25px;
     }
     .logo-container2 img {
       height: 480px;
+      left: 4vw;
     }
     .text-container h1 {
       font-size: 36px;
@@ -203,6 +210,12 @@
       font-size: 18px;
       width: 100%;
     }
+    #mujer {
+      top: 4vh;
+      left: 2.1vw;
+      height: 62vh;
+      width: 47vw;
+    }
   }
 
   @media (min-width: 1024px) and (max-width: 1439px) {
@@ -210,8 +223,13 @@
     .logo {
       width: 360px;
     }
+    .text-container {
+      width: 100%;
+      right: 25px;
+    }
     .text-container h1 {
       font-size: 38px;
+      width: 100%;
     }
     .text-container p {
       font-size: 19px;
@@ -222,11 +240,16 @@
     }
     .logo-container button {
       font-size: 24px;
-      width: 75%;
       height: 32px;
     }
     .logo-container2 img {
-      height: 510px;
+      top: 3%;
+      height: 85vh;
+    }
+    #mujer {
+      left: 9vw;
+      width: 47vw;
+
     }
   }
   
