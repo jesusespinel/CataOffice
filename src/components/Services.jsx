@@ -1,7 +1,7 @@
 
 import React from 'react';
 import '../style-sheets/Services.css'; // Archivo de estilos CSS
-import AboutImage from "../assets/about.png";
+import AboutImage from "../assets/gabo.jpg";
 
 
 

@@ -101,13 +101,17 @@
   .logo-container2 img {
     display: block;
     position: relative;
-    width: 136.1%;
-    height: 694px;
-    top: 13px;
-    right: 72px;
+    width: 52vw;
+    height: 81.6vh;
+    top: 6.6vh;
+    left: 2vw;
   }
 
   @media (max-width: 767px) {
+    #template {
+      margin-top: 50vh;
+      height: 100%;
+    }
     .background {
       flex-wrap: wrap;
     }
@@ -162,6 +166,10 @@
     }
     .background {
       justify-content: space-around;
+    }
+    #mujer {
+      width: 100%;
+      margin-top: 50vh;
     }
   }
 

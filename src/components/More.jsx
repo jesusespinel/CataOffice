@@ -10,7 +10,7 @@ const More = () =>{
       <div className="titles">
         <div className="title1">
           <h1>Lo que nos mueve</h1>
-          <p>Entendimos la importacia de contar con espacios de trabajo qué además de cumplir con las necesidades de los clientes,también se basen en el bienestar de los colaboradores,impactando en la efectividad.</p>
+          <p>Entendimos la importacia de contar con espacios de trabajo qué además de cumplir con las necesidades de los clientes,también se basen en el bienestar de los colaboradores, impactando en la efectividad.</p>
         </div>
 
         <div className="title2">

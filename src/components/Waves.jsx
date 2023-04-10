@@ -1,5 +1,5 @@
 import React from "react"
-import WavesPhoto from "../assets/waves.jpg"
+import WavesPhoto from "../assets/waves.png"
 import '../style-sheets/Waves.css'
 
 const Waves = () =>{
