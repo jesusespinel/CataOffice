@@ -1,15 +1,20 @@
-.container {
+  .container {
     display: flex;
-    flex-wrap: wrap;
     background-image: url('../assets/arena.jpg');
 	  background-repeat: no-repeat;
 	  background-size: 100% 100%;
   }
   
+  .random-image {
+    width: 50%;
+    height: 100vh;
+  }
+
   .titles {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    width: 50%;
   }
   
   .title1, .title2 {
@@ -20,6 +25,9 @@
   }
 
   @media (max-width: 767px) {
+    .container {
+      flex-wrap: wrap;
+    }
     .random-image {
       width: 100%;
     }
