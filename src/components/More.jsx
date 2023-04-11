@@ -2,12 +2,13 @@ import Escritorios from "../assets/desks.png";
 import '../style-sheets/More.css';
 import Accordion from "./Accordion";
 import punta from "../assets/about2.png";
+
 const More = () =>{
     return(
         <div className="container">
           <img className="random-image" src={Escritorios} alt="Escritorios" />
             <div className="titles">
-              <img src ={punta}/>
+              <img id="punta" src ={punta}/>
              <div className="title1">
                 <h1>Lo que nos mueve</h1>
                 <p>Entendimos la importacia de contar con espacios de trabajo qué además de cumplir con las necesidades de los clientes,también se basen en el bienestar de los colaboradores, impactando en la efectividad.</p>
