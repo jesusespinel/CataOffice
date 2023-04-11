@@ -1,7 +1,26 @@
 /* Estilos base del carrusel */
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+  background-color: rgb(9, 117, 101);
+}
+
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 15%;
+  margin-right: 20px; /* agregar un margen para separar el logo del carrusel */
+}
+
+.logo-wrapper img {
+  max-width: 100%;
+  height: auto;
+}
 .carousel-wrapper {
     position: relative;
     overflow: hidden;
+    width: 75%;
   }
   
   .carousel {
@@ -14,11 +33,16 @@
   
   .slide {
     flex: 0 0 auto;
-    width: 100%;
+    width: 25%;
     margin-right: 1rem;
     scroll-snap-align: start;
   }
   
+  .slide img {
+    width: 100%; /* ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto; /* ajusta la altura automáticamente para mantener la proporción */
+  }
+
   /* Estilos para dispositivos pequeños (hasta 576px) */
   @media (max-width: 576px) {
     .slide {
