@@ -18,28 +18,42 @@
   height: auto;
 }
 .carousel-wrapper {
+  display:flex;
     position: relative;
     overflow: hidden;
     width: 75%;
   }
   
+  .previous{
+    background-color: rgb(9, 117, 101);
+    height: 50%;
+    align-self: center;
+  }
+  .next{
+    background-color: rgb(9, 117, 101);
+    height: 50%;
+    align-self: center;
+    
+  }
+  
   .carousel {
     display: flex;
     flex-wrap: nowrap;
-    overflow-x: auto;
+    overflow-x: hidden;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
   }
   
   .slide {
     flex: 0 0 auto;
-    width: 25%;
+    width: 33.333%;
     margin-right: 1rem;
     scroll-snap-align: start;
   }
   
+  
   .slide img {
-    width: 100%; /* ajusta el ancho de la imagen al 100% del contenedor */
+    width: 60%; /* ajusta el ancho de la imagen al 100% del contenedor */
     height: auto; /* ajusta la altura automáticamente para mantener la proporción */
   }
 

@@ -4,13 +4,15 @@ import axios from "axios";
 import CataOffice from "../assets/cataoffice.png";
 import '../style-sheets/Footer.css';
 
+
 const Footer = () =>{
     const [imagesInstagram, setimagesInstagram] = useState([])
     const [showPrevButton, setShowPrevButton] = useState(false);
     const [showNextButton, setShowNextButton] = useState(true);
 
     useEffect(()=>{
-        const token = import.meta.env.REACT_APP_TOKEN
+        const token = import.meta.env.VITE_REACT_APP_TOKEN
+        console.log(token)
         axios.get(`https://graph.instagram.com/me/media?fields=id,media_type,media_url,caption&access_token=${token}`)
       .then((response) => {
         console.log(setimagesInstagram(response.data.data));
@@ -42,6 +44,25 @@ const Footer = () =>{
         <img src={CataOffice} alt="Cata Office" />
       </div>
       <div className="carousel-wrapper">
+            {showPrevButton && (
+                  <button className="previous" onClick={handlePrev} >
+                      <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="30"
+                      
+                      fill="transparent"
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      className="feather feather-arrow-left"
+                      viewBox="0 0 24 24"
+                        >
+                      <path d="M19 12L5 12"></path>
+                      <path d="M12 19L5 12 12 5"></path>
+                     </svg>
+                  </button>
+              )}
         <div id="carousel" className="carousel" onScroll={handleScroll}>
           {imagesInstagram.map((image) => (
             <div key={image.id} className="slide">
@@ -49,14 +70,23 @@ const Footer = () =>{
             </div>
           ))}
         </div>
-        {showPrevButton && (
-          <button className="prev" onClick={handlePrev}>
-            Anterior
-          </button>
-        )}
         {showNextButton && (
           <button className="next" onClick={handleNext}>
-            Siguiente
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="30"
+                    fill="transparent"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    className="feather feather-arrow-right"
+                    viewBox="0 0 24 24"
+                  >
+                  <path d="M5 12L19 12"></path>
+                  <path d="M12 5L19 12 12 19"></path>
+                </svg>
           </button>
         )}
       </div>
