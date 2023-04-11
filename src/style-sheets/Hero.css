@@ -11,9 +11,8 @@
 
 #mujer {
   position: relative;
-  width: 47.5615vw;
+  width: 50%;
   height: 86.515vh;
-  right: 0.15vw;
 }
 
 .background {
@@ -30,6 +29,7 @@
     align-items: flex-start;
     justify-content: flex-start;
     margin-top: 10px;
+    width: 25%
   }
   
   .logo {
@@ -73,7 +73,7 @@
     flex-direction: column;
     justify-content: flex-start;
     margin-top: 18%;
-    right: 100px;
+    width: 25%;
     z-index: 2;
   }
   
@@ -96,21 +96,20 @@
 
   
   .logo-container2 {
-    width: 73%;
+    width: 50%;
     border-radius: 20px;
   }
   
   .logo-container2 img {
     position: relative;
     z-index: 1;
-    width: 47.5615vw;
+    width: 100%;
     height: 86.515vh;
   }
 
   @media (max-width: 767px) {
     .carrousel {
       margin-top: 79.7vh;
-      height: 81.5%;
     }
     .background {
       flex-wrap: wrap;
@@ -172,18 +171,18 @@
       justify-content: space-around;
     }
     #mujer {
-      top: 50px;
+      top: 37px;
       width: 100vw;
-      height: 85vh;
+      height: 86vh;
     }
   }
 
   @media (min-width: 768px) and (max-width: 1023px) {
     .background {
-      padding-top: 6%;
+      padding-top: 3%;
     }
     .logo-container {
-      width: 40%;
+      width: 25%;
     }
     .logo {
       width: 100%;
@@ -196,12 +195,13 @@
       height: 32px;
     }
     .text-container {
-      width: 45%;
-      right: 25px;
+      width: 25%;
+    }
+    .logo-container2 {
+      height: 63.5vh;
     }
     .logo-container2 img {
-      height: 480px;
-      left: 4vw;
+      height: 63.5vh;
     }
     .text-container h1 {
       font-size: 36px;
@@ -211,20 +211,18 @@
       width: 100%;
     }
     #mujer {
-      top: 4vh;
-      left: 2.1vw;
-      height: 62vh;
-      width: 47vw;
+      height: 63.5vh;
+      width: 50%;
     }
   }
 
   @media (min-width: 1024px) and (max-width: 1439px) {
 
     .logo {
-      width: 360px;
+      width: 100%;
     }
     .text-container {
-      width: 100%;
+      width: 25%;
       right: 25px;
     }
     .text-container h1 {
@@ -236,20 +234,17 @@
       width: 100%;
     }
     .logo-container {
-      width: 40%;
+      width: 25%;
     }
     .logo-container button {
       font-size: 24px;
       height: 32px;
     }
     .logo-container2 img {
-      top: 3%;
-      height: 85vh;
+      height: 86.515vh;
     }
     #mujer {
-      left: 9vw;
-      width: 47vw;
-
+      width: 50%;
     }
   }
   
