@@ -10,14 +10,14 @@ img.waves {
     img.waves {
         position: absolute;
         bottom: -960px;
-        height: 140px !important;
+        height: 150px !important;
     }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
     img.waves {
         position: absolute;
-        top: 505px;
+        top: 525px;
         height: 135px !important;
     }
 }
