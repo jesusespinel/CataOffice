@@ -1,8 +1,8 @@
-import React from "react"
-import { useState ,useEffect} from "react"
-import axios from "axios"
-import CataOffice from "../assets/cataoffice.png"
-import '../style-sheets/Footer.css'
+import React from "react";
+import { useState ,useEffect} from "react";
+import axios from "axios";
+import CataOffice from "../assets/cataoffice.png";
+import '../style-sheets/Footer.css';
 
 const Footer = () =>{
     const [imagesInstagram, setimagesInstagram] = useState([])
@@ -10,7 +10,7 @@ const Footer = () =>{
     const [showNextButton, setShowNextButton] = useState(true);
 
     useEffect(()=>{
-        const token ="IGQVJYY2FENl92ZADdYWlZANenhGR2hRd291b2YzaTZACOV9FcERkcWwwYjNhZAmlyVDNjVEFZAU2I2UTE0QmZAXVGZAxQ0FxTGp0YjJrQ3dpTWZA1NGw0eld2d2NpeXZAZAZA043MDE1cWdVZAXJn"
+        const token = import.meta.env.REACT_APP_TOKEN
         axios.get(`https://graph.instagram.com/me/media?fields=id,media_type,media_url,caption&access_token=${token}`)
       .then((response) => {
         console.log(setimagesInstagram(response.data.data));
