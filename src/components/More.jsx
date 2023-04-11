@@ -1,4 +1,4 @@
-import Escritorios from "../assets/Escritorios.jpeg"
+import Escritorios from "../assets/desks.png"
 import '../style-sheets/More.css'
 import Accordion from "./Accordion";
 
