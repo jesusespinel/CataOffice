@@ -23,9 +23,6 @@ p {
 .container-s {
    width: 50%;
    margin: 0px auto;
-   background-image: url('../assets/arena.jpg');
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
 } 
  
 .white {
@@ -85,6 +82,9 @@ button.about.btn.pointer:hover {
 
 .service {
    display: flex;
+   background-image: url('../assets/arena.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 }
 
 #maintenance {
