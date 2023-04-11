@@ -9,7 +9,7 @@ const Footer = () =>{
     const [showNextButton, setShowNextButton] = useState(true);
 
     useEffect(()=>{
-        const token = "IGQVJYY2FENl92ZADdYWlZANenhGR2hRd291b2YzaTZACOV9FcERkcWwwYjNhZAmlyVDNjVEFZAU2I2UTE0QmZAXVGZAxQ0FxTGp0YjJrQ3dpTWZA1NGw0eld2d2NpeXZAZAZA043MDE1cWdVZAXJn"
+        const token ="IGQVJYY2FENl92ZADdYWlZANenhGR2hRd291b2YzaTZACOV9FcERkcWwwYjNhZAmlyVDNjVEFZAU2I2UTE0QmZAXVGZAxQ0FxTGp0YjJrQ3dpTWZA1NGw0eld2d2NpeXZAZAZA043MDE1cWdVZAXJn"
         axios.get(`https://graph.instagram.com/me/media?fields=id,media_type,media_url,caption&access_token=${token}`)
       .then((response) => {
         console.log(setimagesInstagram(response.data.data));

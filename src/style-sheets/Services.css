@@ -21,7 +21,7 @@ p {
 }
 
 .container-s {
-   width: 100%;
+   width: 50%;
    margin: 0px auto;
    background-image: url('../assets/arena.jpg');
 	background-repeat: no-repeat;
@@ -43,14 +43,6 @@ p {
    overflow: hidden;
    align-items: flex-start;
    justify-content: flex-start;
-}
-
-.col__2{
-   max-width: 50%;
-   display: flex;
-   padding: 20px;
-   justify-content: center;
-   flex-direction: column;
 }
 
 .pointer {
@@ -100,15 +92,12 @@ button.about.btn.pointer:hover {
    max-width: 75%;
 }
 
-@media only screen and (max-width: 768px) {
-     .col__2 {
-      max-width: 100%;
-     }
+div#maintenance .service__box {
+   display: flex;
 }
- 
 
- .col__3 {
-   max-width: 25%;
+.col__3 {
+   width: 25%;
    display: flex;
    padding: 20px;
    justify-content: center;
@@ -118,6 +107,7 @@ button.about.btn.pointer:hover {
 
  h1.heading {
    font-size: 60px;
+   color: #555150;
    text-align: center;
    font-weight: 700;
    font-family: Poppins, sans-serif;
@@ -134,10 +124,6 @@ p.heading.p__color {
    border-radius: 10px;
    width: 100%;
    transition: .4s ease;
-}
-
-div#maintenance .service__box {
-   display: flex;
 }
 
 .service__box:hover {
@@ -171,12 +157,39 @@ p.service__text.p__color {
 
 h1.service__text {
    font-size: 19px;
+   text-align: center;
    font-family: Poppins, sans-serif;
-   padding: 10px 0px;
-   color: rgb(9, 117, 101);
+   color: white;
+   background-color: #555150;
 }
 
-
+@media only screen and (max-width: 767.98px) {
+   .col__3 {
+   width: 100%;
+   margin-top: 0;
+   }
+   .col__3 .service__box {
+      padding: 0;
+   }
+   #maintenance {
+      margin-left: 0;
+      max-width: 100%;
+   }
+   
+   div#maintenance .service__box {
+      display: block;
+   }
+   .service {
+      flex-wrap: wrap;
+   }
+   .container-s {
+      width: 100%;
+      margin: 0;
+   }
+   .services-image-container {
+      width: 100%;
+   }
+}
 
 @media only screen and (max-width: 1024px) {
      .service__box {
