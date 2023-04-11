@@ -10,7 +10,7 @@ const Footer = () =>{
     const [showNextButton, setShowNextButton] = useState(true);
 
     useEffect(()=>{
-        const token = import.meta.env.REACT_APP_TOKEN
+        const token = import.meta.env.VITE_REACT_APP_TOKEN
         axios.get(`https://graph.instagram.com/me/media?fields=id,media_type,media_url,caption&access_token=${token}`)
       .then((response) => {
         console.log(setimagesInstagram(response.data.data));
