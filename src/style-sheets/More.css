@@ -16,6 +16,11 @@
     gap: 1rem;
     width: 50%;
   }
+
+  #punta {
+    width: 48.8%;
+    align-self: flex-end;
+  }
   
   .title1, .title2 {
     display: flex;
