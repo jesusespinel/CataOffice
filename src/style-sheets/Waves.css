@@ -9,8 +9,8 @@ img.waves {
 @media (max-width: 767.98px) {
     img.waves {
         position: absolute;
-        bottom: -128vh;
-        height: 156px !important;
+        bottom: -86.6vh;
+        height: 158px !important;
     }
 }
 
