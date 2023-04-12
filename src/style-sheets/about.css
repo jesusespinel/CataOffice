@@ -7,7 +7,7 @@
 	background-size: 100% 100%;
 }
 
-.about_c > div, .about_c > div {
+.about_c > div {
   width: 65%;
   margin-left: 15%;
 }
@@ -45,7 +45,7 @@ strong {
     flex-wrap: wrap;
     padding-top: 20%;
   }
-  .about_c > div, .about_c > div {
+  .about_c > div {
     width: 90%;
     margin: 0px auto;
   }
@@ -61,13 +61,30 @@ strong {
     bottom: 0;
     width: 100%;
   }
+  .about_highlight {
+    margin-top: 3rem;
+  }
+
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .about_c {
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+  }
+  .about_c > div > p {
+    font-weight: bold;
+  }
+  .about_c > div {
+    width: 50%;
+    margin-left: 4.17%;
   }
   .about_c > #pic {
-    width: 100%;
+    width: 50%;
+    margin-left: 0;
+  }
+  #pic img {
+    margin-left: 8.34%;
+    width: 91.66%;
+    height: 110%;
   }
 }

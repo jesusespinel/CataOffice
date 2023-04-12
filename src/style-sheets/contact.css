@@ -3,6 +3,7 @@
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
+
 .contact_info {
   display: flex;
   align-items: center;
@@ -163,8 +164,10 @@ select {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-bottom: 0;
-    
+    margin-bottom: 0; 
+  }
+  #form_title {
+    top: 0;
   }
   .container-form {
     width: 90%;
@@ -194,7 +197,6 @@ select {
   }
   .person {
     margin-right: 0px;
-    margin-top: 5vh;
     width: 100%;
   }
 }

@@ -61,10 +61,31 @@
 .title span {
     font-size: 32px;
     font-weight: bold;
-  }
+}
 
 @media (max-width: 767.98px) {
     .content, .content-show {
         right: 20%;
     }
+    .accordion {
+        flex-wrap: wrap;
+      }
+      .item {
+        width: 100vw !important;
+        padding: 0px !important;
+        position: relative;
+        right: 0;
+      }
 }
+
+@media (min-width: 768px) and (max-width: 1023.98px) {
+    .accordion {
+      flex-wrap: wrap;
+    }
+    .item {
+      width: 100%;
+      padding: 0px;
+      position: relative;
+      right: 0;
+    }
+  }
