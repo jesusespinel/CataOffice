@@ -3,6 +3,8 @@
   display: flex;
   align-items: center;
   background-color: rgb(9, 117, 101);
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .logo-wrapper {
@@ -18,7 +20,7 @@
   height: auto;
 }
 .carousel-wrapper {
-  display:flex;
+    display:flex;
     position: relative;
     overflow: hidden;
     width: 75%;
@@ -60,6 +62,11 @@
   @media (max-width: 576px) {
     .slide {
       margin-right: 0.5rem;
+      width: 12%
+    }
+    .carousel{
+      display: flex;
+      flex-wrap: wrap;
     }
   }
   
@@ -67,6 +74,12 @@
   @media (max-width: 768px) {
     .slide {
       margin-right: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .carousel{
+      display: flex;
+      flex-wrap: wrap;
     }
   }
   
@@ -75,12 +88,17 @@
     .slide {
       margin-right: 1.5rem;
     }
+    .carousel{
+      display: flex;
+      flex-wrap: wrap;
+    }
   }
   
   /* Estilos para dispositivos extra grandes (a partir de 1200px) */
   @media (min-width: 1200px) {
     .slide {
       margin-right: 2rem;
+      display: flex;
     }
   }
   
