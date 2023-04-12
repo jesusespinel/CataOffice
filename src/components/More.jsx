@@ -4,7 +4,7 @@ import Accordion from "./Accordion";
 
 const More = () =>{
     return(
-        <div className="container">
+        <div id="more" className="container">
           <img className="random-image" src={Escritorios} alt="Escritorios" />
             <div className="titles">
              <div className="title1">
