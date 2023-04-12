@@ -9,7 +9,7 @@ const Hero = () => {
  
     return(
         <>
-            <div className="carrousel">
+            <div id="home" className="carrousel">
                 <img src={Mujer} alt= "mujer" id="mujer"/>
             </div>
             <div className="background">

@@ -4,7 +4,7 @@ import '../style-sheets/about.css';
 const About = () => {
   return(
       <>
-          <div className="about_c">
+          <div id="about" className="about_c">
             <div>
               <h1 className="about_highlight">¿Qué es Cata Office?</h1>
               <p style={{fontSize: '1.2rem', lineHeight: 1.5}}>

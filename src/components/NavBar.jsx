@@ -12,11 +12,11 @@ const NavBar = () =>{
             <img src ={CataOffice} alt= "Logo"/>
           </div>
         </li>
-        <li><a href="#">Hola</a></li>
-        <li><a href="#">Nosotros</a></li>
-        <li><a href="#">¿Qué hacemos?</a></li>
-        <li><a href="#">Escríbenos</a></li>
-        <li><a href="#">Más</a></li>
+        <li><a href="#home">Hola</a></li>
+        <li><a href="#about">Nosotros</a></li>
+        <li><a href="#Services">¿Qué hacemos?</a></li>
+        <li><a href="#contact">Escríbenos</a></li>
+        <li><a href="#more">Más</a></li>
       </ul>
     </nav>
   )

@@ -4,7 +4,7 @@ import Aaron from "../assets/aaron.jpeg"
 
 const Contact = () => {
   return (
-    <div className='contact_c'>
+    <div id="contact" className='contact_c'>
       <h1 id="form_title">¡Hablemos!</h1>
       <div id="overlay">
         <div className="contact_info">
@@ -177,6 +177,11 @@ const Contact = () => {
               <path d="M2 9H6V21H2z"></path>
               <circle cx="4" cy="4" r="2"></circle>
             </svg>
+          <a 
+            href='https://www.instagram.com/cataofficecolombia/'
+            target="_blank" 
+            rel="noopener noreferrer"
+            >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="70"
@@ -193,6 +198,14 @@ const Contact = () => {
               <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"></path>
               <path d="M17.5 6.5L17.51 6.5"></path>
             </svg>
+           </a>
+            
+            
+           <a 
+            href="https://www.google.com/maps/place/Cata+coworking/@7.8841556,-72.496948,17z/data=!4m14!1m7!3m6!1s0x8e66458911a9161b:0x3b6c5340b9d74895!2sCata+coworking!8m2!3d7.8841556!4d-72.4947593!16s%2Fg%2F11t85z8p_r!3m5!1s0x8e66458911a9161b:0x3b6c5340b9d74895!8m2!3d7.8841556!4d-72.4947593!16s%2Fg%2F11t85z8p_r?hl=es" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="70"
@@ -208,6 +221,7 @@ const Contact = () => {
               <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"></path>
               <circle cx="12" cy="10" r="3"></circle>
             </svg>
+          </a>
           </div>
         </div>
       </div>

@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'EastmanRomanTrial-Bold';
+    src: url('./fonts/EastmanRomanTrial-Bold.otf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+h1 {
+  font-family: 'EastmanRomanTrial-Bold';
+}
+h2 {
+    font-family: 'EastmanRomanTrial-Bold';
+  }
+
+@font-face {
+    font-family: 'Mollen Personal Use-Light';
+    src: url('./fonts/Mollen Personal Use-Light.otf') format('truetype');
+  }
+
+  p{
+    font-family: 'Mollen Personal Use-Light';
+  }
+
+  a{
+    font-family: 'Mollen Personal Use-Light';
+  }
+
+
+  .span{
+    font-family: 'Mollen Personal Use-Light';
+  }
