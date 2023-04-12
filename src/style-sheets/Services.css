@@ -15,9 +15,11 @@ li {
    overflow: hidden;
 }
 
-p {
+.p {
    font-size: 16px;
    font-family: Poppins, sans-serif;
+   color: black;
+   font-weight: bold;
 }
 
 .container-s {
