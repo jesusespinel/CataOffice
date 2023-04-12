@@ -107,7 +107,7 @@
     height: 86.515vh;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 767.98px) {
     .carrousel {
       margin-top: 79.7vh;
     }
@@ -149,6 +149,7 @@
       width: 100%;
       left: 0;
       top: 0;
+      height: 45vh;
     }
     .text-container {
       margin-top: 0px;
@@ -171,18 +172,18 @@
       justify-content: space-around;
     }
     #mujer {
-      top: 37px;
+      top: 36px;
       width: 100vw;
-      height: 86vh;
+      height: 44.5vh;
     }
   }
 
-  @media (min-width: 768px) and (max-width: 1023px) {
+  @media (min-width: 768px) and (max-width: 1023.98px) {
     .background {
       padding-top: 3%;
     }
     .logo-container {
-      width: 25%;
+      width: 30%;
     }
     .logo {
       width: 100%;
@@ -195,28 +196,29 @@
       height: 32px;
     }
     .text-container {
-      width: 25%;
+      width: 30%;
     }
     .logo-container2 {
       height: 63.5vh;
+      width: 40%;
     }
     .logo-container2 img {
       height: 63.5vh;
     }
     .text-container h1 {
-      font-size: 36px;
+      font-size: 28px;
     }
     .text-container p {
-      font-size: 18px;
+      font-size: 16px;
       width: 100%;
     }
     #mujer {
       height: 63.5vh;
-      width: 50%;
+      width: 40%;
     }
   }
 
-  @media (min-width: 1024px) and (max-width: 1439px) {
+  @media (min-width: 1024px) and (max-width: 1439.98px) {
 
     .logo {
       width: 100%;
