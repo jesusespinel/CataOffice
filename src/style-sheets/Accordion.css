@@ -21,20 +21,35 @@
     cursor: pointer;
 }
 
-.content {
-    right: 0;
-    position: relative;
-    top: -5%;
-    opacity: 0; 
-    transition: all 1s;
+@keyframes opacity-off {
+    from {opacity: 1}
+    to {opacity: 0}
 }
 
+@keyframes opacity-on {
+    from {opacity: 0}
+    to {opacity: 1}
+}
 
-.content-show{
-    position: relative;
-    top: 0%;
+.content {  
+    animation-name: opacity-off; 
+    opacity: 0;
+}
+
+.content-show{  
+    animation-name: opacity-on;
     opacity: 1;
-    transition: all 1s;
+}
+
+.content, .content-show {
+    background-image: url('../assets/arena.jpg');
+    position: absolute;
+    width: 220px;
+    animation-duration: 1s;
+    border-radius: 5px;
+    z-index: 1;
+    border: 2px solid #555150;
+    padding: 0px 2px;
 }
 
 .content p, .content-show p {
@@ -42,3 +57,9 @@
     font-weight: bold;
     color: black; 
   }
+
+@media (max-width: 767.98px) {
+    .content, .content-show {
+        right: 20%;
+    }
+}
