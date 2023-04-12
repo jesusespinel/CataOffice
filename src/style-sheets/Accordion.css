@@ -5,6 +5,7 @@
 .accordion{
     display: flex;
     width: 100%;
+    margin-top: 10%;
 }
 
 .item{
@@ -88,4 +89,18 @@
       position: relative;
       right: 0;
     }
+    .content, .content-show {
+        right: 33.333%;
+    }
   }
+
+@media (min-width: 1024px) and (max-width: 1439.98px) {
+    .item {
+        padding: 0;
+    }
+    .accordion {
+        position: relative;
+        right: 6%;
+    }
+
+}
