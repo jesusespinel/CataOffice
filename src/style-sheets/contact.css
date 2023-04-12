@@ -41,7 +41,7 @@ height: 20px;
 
 .name {
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin-bottom: 0.5rem;
   background-color: yellow;
   color:  rgb(9, 117, 101);
@@ -146,37 +146,56 @@ select {
   color: #555150;
   font-weight: bold;
 }
+
 .container-form{
   width: 37%;
 }
+
+.icon-container svg{
+  cursor: pointer;
+  margin-right: 85px;
+}
+
+
 @media (max-width: 767px) {
   #overlay {
     width: 100%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-bottom: 0;
     
   }
+  .container-form {
+    width: 90%;
+  }
+
   #myform {
     width: 95%;
   }
-  .icon-container > img {
-    width: 60px;
-    height: 60px;
+  .icon-container {
+    justify-content: space-around;
+  }
+  .icon-container svg {
+    margin-right: 0px;
   }
   .contact_c {
     background-repeat: repeat;
     background-size: 100% 50%;
+    padding-top: 5vh;
+  }
+  .contact span {
+    font-size: 1.2rem;
   }
   .contact_info {
     width: 100%;
     flex-wrap: wrap;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0;
   }
-
   .person {
     margin-right: 0px;
+    margin-top: 5vh;
+    width: 100%;
   }
 }
 
@@ -195,12 +214,6 @@ select {
     margin-bottom: 10%;
   }
 }
-
-.icon-container svg{
-  cursor: pointer;
-  margin-right: 85px;
-}
-
 
 @media (min-width: 1024px) and (max-width: 1439px) {
   #myform {

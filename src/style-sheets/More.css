@@ -41,11 +41,6 @@
     text-decoration-thickness: 2px;
   }
 
-  span {
-    font-size: 32px;
-    font-weight: bold;
-  }
-
   @media (max-width: 767px) {
     .container {
       flex-wrap: wrap;

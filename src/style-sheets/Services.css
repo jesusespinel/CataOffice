@@ -204,6 +204,7 @@ h1.service__text {
    }
    .services-image-container {
       width: 100%;
+      height: 75%;
    }
 }
 
