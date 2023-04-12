@@ -1,7 +1,7 @@
 
 import React from 'react';
 import '../style-sheets/Services.css'; // Archivo de estilos CSS
-import AboutImage from "../assets/gabo.jpg";
+import AboutImage from "../assets/gabos.png";
 
 
 
@@ -11,7 +11,7 @@ const Services= ()=> {
     <div className="service component__space" id="Services">
             
 
-            <div className="container-s" style={{width: "75%"}}>
+            <div className="container-s">
                 <div className="heading">
                     <h1 className="heading">Proceso de Trabajo</h1>
                     
@@ -181,8 +181,8 @@ const Services= ()=> {
                     </div>
                 </div>
             </div>
-            <div className='services-image-container' style={{width: '50%', display: 'flex', alignItems: 'center'}}>
-                <img src={AboutImage} style={{maxWidth: '100%', height: '100%'}}/>
+            <div className='services-image-container' style={{display: 'flex', alignItems: 'center'}}>
+                <img src={AboutImage}/>
             </div>
         </div>
   );

@@ -6,7 +6,7 @@ export  const accordionData = [
     },
     {
       title: 'Visión',
-      content: `Consolidarnos en el mercado como una empresa caracterizada por superar las expectativas de cada uno de nuestros clientes, por calidad,cumplimiento,puntualidad,innovación y procesos simples.`
+      content: `Consolidarnos en el mercado como una empresa caracterizada por superar las expectativas de cada uno de nuestros clientes, por calidad, cumplimiento, puntualidad, innovación y procesos simples.`
     },
     {
       title: 'Valores',

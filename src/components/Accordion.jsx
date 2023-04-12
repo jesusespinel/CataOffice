@@ -16,14 +16,14 @@ const Accordion = () =>{
 return (
     <div className="wrapper">
         <div className="accordion">
-            {accordionData.map((item,i) =>
+            {accordionData.map((item, i) =>
             (
                 <div className="item">
                     <div className="title" onClick={()=> toggle(i)}>
                           <h2>{item.title}</h2>
                           <span>{selected === i ? '-' : '+' }</span>
                      </div>
-                     <div className={ selected === i? "content-show":"content"}><u>{item.content}</u></div>
+                     <div className={ selected === i ? "content-show":"content"}><p>{item.content}</p></div>
                      
                 </div>
             )

@@ -22,15 +22,23 @@
 }
 
 .content {
-    color: orange;
-    max-height: 0;
-    overflow: hidden;
-    transition: all 0.5s cubic-bezier(1,0,1,0);
+    right: 0;
+    position: relative;
+    top: -5%;
+    opacity: 0; 
+    transition: all 1s;
 }
 
 
 .content-show{
-    height: auto;
-    max-height: 9999px;
-    transition: all 0.5s cubic-bezier(1,0,1,0);
+    position: relative;
+    top: 0%;
+    opacity: 1;
+    transition: all 1s;
 }
+
+.content p, .content-show p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: black; 
+  }
