@@ -15,7 +15,7 @@
 .contact{
   margin-top: 9px;
   width: 250px;
- 
+  font-family: 'Mollen Personal Use-Light';
 }
 
 .contact span{
@@ -46,6 +46,10 @@ height: 20px;
   background-color: yellow;
   color:  rgb(9, 117, 101);
   margin-top: 0.8rem;
+  font-family: 'EastmanRomanTrial-Bold';
+}
+.span{
+  font-family: 'Mollen Personal Use-Light';
 }
 
 .contact {
