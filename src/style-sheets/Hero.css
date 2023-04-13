@@ -65,6 +65,7 @@
     border: 0px;
     width: 300px;
     height: 60px;
+    z-index: 2;
   }
 
   .text-container {
@@ -182,7 +183,7 @@
   @media (min-width: 768px) and (max-width: 1023.98px) {
     .background {
       padding-top: 6%;
-      padding-bottom: 11vh;
+      padding-bottom: 13vh;
     }
     .carrousel {
       margin-top: 6%;

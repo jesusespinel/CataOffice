@@ -2,7 +2,7 @@
     width: 100%;
     position: absolute;
     bottom: -4vh;
-    z-index: 2;
+    z-index: 1;
 }
 
 img.waves {
@@ -29,8 +29,8 @@ img.waves {
     }
 
     img.waves {
-        margin-top: 175px;
-        height: 150px !important;
+        margin-top: 225px;
+        height: 115px !important;
     }
 }
 
