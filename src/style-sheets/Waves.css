@@ -25,11 +25,11 @@ img.waves {
 @media (min-width: 768px) and (max-width: 1023.98px) {
     .waves_c {
         position: absolute;
-        top: 25vh;
+        top: 29vh;
     }
 
     img.waves {
-        margin-top: 315px;
+        margin-top: 282px;
         height: 120px !important;
     }
 }
