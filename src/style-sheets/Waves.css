@@ -1,31 +1,46 @@
-img.waves {
+.waves_c {
     width: 100%;
-    height: 250px !important;
     position: absolute;
     bottom: -19.9vh;
     z-index: 2;
 }
 
+img.waves {
+    width: 100%;
+    height: 250px !important;
+}
+
 @media (max-width: 767.98px) {
-    img.waves {
+    .waves_c {
         position: absolute;
-        bottom: -81vh;
+        top: 50vh;
+        height: 155px !important;
+    }
+
+    img.waves {
+        margin-top: 825px;
         height: 155px !important;
     }
 }
 
 @media (min-width: 768px) and (max-width: 1023.98px) {
-    img.waves {
+    .waves_c {
         position: absolute;
         top: 64.8vh;
+    }
+
+    img.waves {
         height: 155px !important;
     }
 }
 
 @media (min-width: 1024px) and (max-width: 1439.98px) {
-    img.waves {
+    .waves_c {
         position: absolute;
-        top: 88.5vh;
+        top: 88.5vh;  
+    }
+
+    img.waves {
         height: 200px !important;
     }
 }

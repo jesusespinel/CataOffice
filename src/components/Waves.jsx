@@ -4,7 +4,10 @@ import '../style-sheets/Waves.css'
 
 const Waves = () =>{
     return(
-        <img className="waves" src = {WavesPhoto}/>
+        <div className="waves_c">
+            <img className="waves" src = {WavesPhoto}/>
+        </div>
+        
 )
 }
 export default Waves
