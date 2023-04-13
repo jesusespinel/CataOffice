@@ -1,6 +1,6 @@
   .container {
     display: flex;
-    background-image: url('../assets/arena.jpg');
+    background-color: white;
 	  background-repeat: no-repeat;
 	  background-size: 100% 100%;
   }
