@@ -179,7 +179,9 @@ select {
 
   #myform {
     width: 95%;
+    margin: 0px 0px 10% 0px;
   }
+
   .icon-container {
     justify-content: space-around;
   }
@@ -202,6 +204,7 @@ select {
   .person {
     margin-right: 0px;
     width: 100%;
+    margin-bottom: 10%;
   }
 }
 
