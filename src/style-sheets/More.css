@@ -33,6 +33,10 @@
     color: #555150; 
   }
 
+  .title2 {
+    margin-top: 7.5%;
+  }
+
   .titles h1 {
     font-size: 46px;
   }
@@ -69,6 +73,10 @@
     }
     .titles {
       width: 55%;
+      margin-top: 10%;
+    }
+    .title2 {
+      margin-top: 10%;
     }
     .titles h1 {
       font-size: 42px;
