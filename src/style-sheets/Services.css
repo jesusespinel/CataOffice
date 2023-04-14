@@ -123,7 +123,7 @@ p.heading.p__color {
 
 .service__box:hover {
    transform: translateY(5px);
-   background-image: linear-gradient(90deg, #64C1D6,  rgb(9, 117, 101));
+   background-color: rgb(0, 160, 136);
 }
 
 .service__box:hover .icon {
@@ -138,12 +138,17 @@ p.heading.p__color {
    font-size: 54px;
    font-weight: 400;
    margin-bottom: 23px;
-   display: inline-flex;
    color: rgb(9, 117, 101);
 }
 
+.icon img {
+   margin-top: 10px;
+   width: 72.9px;
+   height: 72.9px;
+}
+
 .icon svg path {
-   fill: #555150;
+   fill: #E0CC0F;
 }
 
 p.service__text.p__color {
@@ -198,9 +203,12 @@ h1.service__text {
       height: 75%;
       padding-bottom: 10px;
    }
+   .icon {
+      text-align: center;
+   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1023.98px) {
    h1.heading {
       font-size: 40px;
    }
@@ -216,5 +224,21 @@ h1.service__text {
    }
    .service {
       align-items: center;
+   }
+}
+
+@media (min-width: 1024px) and (max-width: 1439.98px) {
+   .col__3 {
+      width: 33%;
+   }
+   #maintenance {
+      width: 66%;
+      margin-left: 0;
+   }
+   div#maintenance .service__box {
+      display: block;
+   }
+   .icon {
+      text-align: center;
    }
 }

@@ -1,4 +1,4 @@
-import AboutImage from "../assets/about.png";
+import AboutImage from "../assets/about-alt.png";
 import '../style-sheets/about.css';
 
 const About = () => {
