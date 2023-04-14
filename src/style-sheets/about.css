@@ -43,6 +43,7 @@ strong {
 @media (max-width: 767px) {
   .about_c {
     flex-wrap: wrap;
+    padding-top: 0%;
   }
   .about_c > div {
     width: 90%;
@@ -69,7 +70,6 @@ strong {
 @media (min-width: 768px) and (max-width: 1023px) {
   .about_c {
     flex-wrap: nowrap;
-    padding-top: 0%;
   }
   .about_c > div > p {
     font-weight: bold;
