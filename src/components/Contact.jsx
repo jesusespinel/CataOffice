@@ -1,8 +1,49 @@
 import '../style-sheets/contact.css';
-import Eduardo from "../assets/eduardo.jpeg"
-import Aaron from "../assets/aaron.jpeg"
+import Eduardo from "../assets/eduardo.jpeg";
+import Aaron from "../assets/aaron.jpeg";
+import { useState } from 'react';
+import emailjs from '@emailjs/browser';
+
 
 const Contact = () => {
+
+  const [input,setInput] = useState({
+    name:"",
+    email:"",
+    message:"",
+    company:"",
+    phone:"",
+    projects:"",
+    networks:"",
+  })
+
+  const handleInputChange = (e) =>{
+    setInput({
+      ...input,
+      [e.target.name]: e.target.value
+    })
+  }
+
+  const sendEmail = (event) => {
+        event.preventDefault();
+        emailjs.sendForm('service_30yu7ik','template_v7ywq8k',event.target,'_FmdYepCci5PSAUb6xBK9')
+        .then(response => console.log(response))
+        .catch(error => console.log(error))
+        setInput({
+        name:"",
+        email:"",
+        message:"",
+        company:"",
+        phone:"",
+        projects:"",
+        networks:""
+      })
+    }
+  
+
+
+  const [errors,setErrors] = useState({})
+
   return (
     <div id="contact" className='contact_c'>
       <h1 id="form_title">¡Hablemos!</h1>
@@ -121,24 +162,24 @@ const Contact = () => {
         </div>
 
         <div className='container-form'>
-          <form id="myform">
+          <form  onSubmit={sendEmail} id="myform">
             <div className="custom_f">
-              <input id="name" type="text" placeholder="Escribe tu nombre" />
+              <input  onChange={handleInputChange} name='name' value={input.name} id="name" type="text" placeholder="Escribe tu nombre" />
             </div>
             <div className="custom_f">
-              <input id="company_name" type="text" placeholder="Nombre de tu empresa" />
+              <input  onChange={handleInputChange} name='company' value={input.company} id="company_name" type="text" placeholder="Nombre de tu empresa" />
             </div>
             <div className="custom_f"> 
-              <input id="email" type="email" placeholder="Email" />
+              <input  onChange={handleInputChange} name='email' value={input.email} id="email" type="email" placeholder="Email" />
             </div>
             <div className="custom_f"> 
-              <input id="telefono" type="text" placeholder="Número de telefono" />
+              <input  onChange={handleInputChange}name='phone' value={input.phone} id="telefono" type="text" placeholder="Número de telefono" />
             </div>
             <div className="custom_f">
-              <textarea placeholder="Agrega cualquier detalle que nos quieras dejar saber"></textarea>
+              <textarea  onChange={handleInputChange} name='message' value={input.message} placeholder="Agrega cualquier detalle que nos quieras dejar saber"></textarea>
             </div>
             <div className="custom_f">
-              <select>
+              <select value={input.projects} name='projects' onChange={handleInputChange}>
                 <option disabled selected>Tipo de proyecto</option>
                 <option>Diseño</option>
                 <option>Presupuesto</option>
@@ -147,7 +188,7 @@ const Contact = () => {
               </select>
             </div>
             <div className="custom_f">
-              <select>
+              <select value={input.networks} name='networks' onChange={handleInputChange}>
                 <option disabled selected>¿Cómo nos conociste?</option>
                 <option>Redes sociales</option>
                 <option>Email</option>
