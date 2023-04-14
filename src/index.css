@@ -25,6 +25,12 @@
 	margin-top:16px;
 }
 
+.danger{
+	color: red;
+	font-weight: bold;
+  }
+  
+
 @media (max-width: 767px) {
 	.float {
 		right: 30px;
