@@ -1,5 +1,5 @@
 .about_c {
-  padding-top: 5%;
+  padding-top: 2%;
   display: flex;
   width: 100%;
   background-color: white;
@@ -8,8 +8,8 @@
 }
 
 .about_c > div {
-  width: 65%;
-  margin-left: 15%;
+  width: 40%;
+  margin-left: 10%;
 }
 
 .about_c > div > h1 {
@@ -17,7 +17,7 @@
 }
 
 .about_c > #pic {
-  width: 100%;
+  width: 50%;
 }
 
 #pic img {
@@ -86,5 +86,15 @@ strong {
     margin-left: 8.34%;
     width: 91.66%;
     height: 110%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1439.98px) {
+  .about_c > div{
+    width: 50%;
+  }
+  .about_c > #pic {
+    width: 50%;
+    margin-left: 0;
   }
 }

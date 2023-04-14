@@ -43,7 +43,7 @@
 }
 
 .content, .content-show {
-    background-image: url('../assets/arena.jpg');
+    background-color: rgb(0, 160, 136);
     position: absolute;
     width: 220px;
     animation-duration: 1s;
@@ -98,9 +98,8 @@
     .item {
         padding: 0;
     }
-    .accordion {
+    .wrapper {
         position: relative;
-        right: 6%;
+        right: 7%;
     }
-
 }

@@ -1,13 +1,15 @@
 .waves_c {
     width: 100%;
-    position: absolute;
-    bottom: -4vh;
+    position: relative;
     z-index: 1;
+    height: 0;
 }
 
 img.waves {
     width: 100%;
     height: 150px !important;
+    position: relative;
+    bottom: 130px;
 }
 
 
@@ -35,17 +37,20 @@ img.waves {
     img.waves {
         height: 115px !important;
         position: relative;
-        bottom: 115px;
+        bottom: 114px;
     }
 }
 
 @media (min-width: 1024px) and (max-width: 1439.98px) {
-    .waves_c {
-        position: absolute;
-        top: 88.5vh;  
+   .waves_c {
+        position: relative;
+        height: 0;
+        bottom: 30%;
     }
 
     img.waves {
-        height: 200px !important;
+        height: 115px !important;
+        position: relative;
+        bottom: 110px;
     }
 }
