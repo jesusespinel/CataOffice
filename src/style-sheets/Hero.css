@@ -108,6 +108,15 @@
     height: 86.515vh;
   }
 
+  @media (max-width: 359.98px) {
+    .text-container {
+      width: 100% !important;
+    }
+    .background {
+      padding-bottom: 26.8% !important;
+    }
+  }
+
   @media (max-width: 767.98px) {
     .carrousel {
       padding-top: 3%;
