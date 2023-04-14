@@ -1,5 +1,5 @@
 
-export  const accordionData = [
+export const accordionData = [
     {
       title: 'Misión',
       content: `Construir espacios de trabajo dinámicos y diferentes,apoyándonos en conceptos modernos donde prima el bienestar y la naturaleza logrando así una mejor interacción entre ambiente y usuario.`

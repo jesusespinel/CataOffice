@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import '../style-sheets/Hero.css';
 import CataOffice from'../assets/cataoffice_copy.png';
 import Waves from '../components/Waves';
-import Mujer from '../assets/mujer.jpeg';
+import pictures from '../utils/photos.js';
 import Logo2 from '../assets/logo2-alt.png';
 
 const Hero = () => {
@@ -11,11 +11,19 @@ const Hero = () => {
         e.preventDefault();
         document.getElementById(id).scrollIntoView({ behavior: "smooth" });
       };
+
+    const [i, setI] = useState(0);
+
+
  
     return(
         <>
             <div id="home" className="carrousel">
-                <img src={Mujer} alt= "mujer" id="mujer"/>
+                {
+                    pictures.map((picture, i) => {
+                        return <img src={picture} id="mujer"/>
+                    })
+                }
             </div>
                 <div className="background">
                     <div className="logo-container">

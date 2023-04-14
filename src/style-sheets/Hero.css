@@ -1,17 +1,62 @@
+@keyframes slide {
+  0% {
+    transform: translateX(4.16%);
+  }
+  8.33% {
+    transform: translateX(4.16%);
+  }
+  16.66% {
+    transform: translateX(-4.16%);
+  }
+  25% {
+    transform: translateX(-4.16%);
+  }
+  33.33% {
+    transform: translateX(-12.5%);
+  }
+  41.66% {
+    transform: translateX(-12.5%);
+  }
+  50% {
+    transform: translateX(-20.83%);
+  }
+  58.33% {
+    transform: translateX(-20.83%);
+  }
+  66.66% {
+    transform: translateX(-29.16%);
+  }
+  75% {
+    transform: translateX(-29.16%);
+  }
+  83.33% {
+    transform: translateX(-37.49%);
+  }
+  91.66% {
+    transform: translateX(-37.49%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+
+}
+
 .carrousel {
   position: absolute;
-  width: 100%;
+  width: 600%;
   margin: 0px auto;
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 0;
   padding-top: 3%;
+  animation: slide 6s linear infinite;
+  overflow: auto;
 }
 
 #mujer {
   position: relative;
-  width: 50%;
+  width: 8.33%;
   height: 86.515vh;
 }
 
@@ -20,10 +65,11 @@
     background-color: rgb(9, 117, 101);
     padding-top: 3%;
     padding-bottom: 5%;
-    z-index: -1;
 }
 
 .logo-container {
+    position: relative;
+    z-index: 1;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
