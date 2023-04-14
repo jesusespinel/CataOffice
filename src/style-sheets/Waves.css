@@ -10,24 +10,18 @@ img.waves {
     height: 150px !important;
 }
 
-@media (max-width: 359.98px) {
-    .waves_c {
-        top: 50vh !important;
-    }
-    img.waves {
-        margin-top: 808px !important;
-    }
-}
 
 @media (max-width: 767.98px) {
     .waves_c {
-        position: absolute;
-        top: 52vh;
+        position: relative;
+        bottom: 30%;
+        height: 0;
     }
 
     img.waves {
-        margin-top: 778px;
         height: 115px !important;
+        position: relative;
+        bottom: 110px;
     }
 }
 
