@@ -13,23 +13,23 @@ img.waves {
 @media (max-width: 767.98px) {
     .waves_c {
         position: absolute;
-        top: 50vh;
+        top: 52vh;
     }
 
     img.waves {
-        margin-top: 790px;
-        height: 110px !important;
+        margin-top: 779px;
+        height: 115px !important;
     }
 }
 
 @media (min-width: 768px) and (max-width: 1023.98px) {
     .waves_c {
         position: absolute;
-        top: 38vh;
+        top: 29vh;
     }
 
     img.waves {
-        margin-top: 230px;
+        margin-top: 282px;
         height: 120px !important;
     }
 }

@@ -114,7 +114,7 @@
     }
     .background {
       flex-wrap: wrap;
-      padding-bottom: 20%;
+      padding-bottom: 21%;
     }
     .logo {
       position: absolute;
@@ -176,14 +176,14 @@
     #mujer {
       margin-top: 614.8px;
       width: 100%;
-      height: 44.4vh;
+      height: 44vh;
     }
   }
 
   @media (min-width: 768px) and (max-width: 1023.98px) {
     .background {
       padding-top: 6%;
-      padding-bottom: 13%;
+      padding-bottom: 140px;
     }
     .carrousel {
       margin-top: 6%;
