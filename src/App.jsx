@@ -46,7 +46,7 @@ function App() {
   }
 
   return (
-    <div>
+    <div style={{overflow: "hidden", position: "relative"}}>
     <NavBar/>
     <Hero/>
     <About/>

@@ -2,43 +2,75 @@
   0% {
     transform: translateX(4.16%);
   }
-  8.33% {
+  4.165% {
     transform: translateX(4.16%);
   }
+  8.33% {
+    transform: translateX(-4.16%);
+  }
+  12.495% {
+    transform: translateX(-4.16%);
+  }
   16.66% {
-    transform: translateX(-4.16%);
-  }
-  25% {
-    transform: translateX(-4.16%);
-  }
-  33.33% {
     transform: translateX(-12.5%);
   }
-  41.66% {
+  20.825% {
     transform: translateX(-12.5%);
   }
-  50% {
+  24.99% {
     transform: translateX(-20.83%);
   }
-  58.33% {
+  29.155% {
     transform: translateX(-20.83%);
   }
-  66.66% {
+  33.32% {
     transform: translateX(-29.16%);
   }
-  75% {
+  37.485% {
     transform: translateX(-29.16%);
   }
-  83.33% {
+  41.65% {
     transform: translateX(-37.49%);
   }
-  91.66% {
+  45.815% {
     transform: translateX(-37.49%);
+  }
+  49.98% {
+    transform: translateX(-45.82%);
+  }
+  54.145% {
+    transform: translateX(-45.82%);
+  }
+  58.31% {
+    transform: translateX(-54.15%);
+  }
+  62.475% {
+    transform: translateX(-54.15%);
+  }
+  66.64% {
+    transform: translateX(-62.48%);
+  }
+  70.805% {
+    transform: translateX(-62.48%);
+  }
+  74.97% {
+    transform: translateX(-70.81%);
+  }
+  79.135% {
+    transform: translateX(-70.81%);
+  }
+  83.3% {
+    transform: translateX(-79.14%);
+  }
+  87.465% {
+    transform: translateX(-79.14%);
+  }
+  91.63% {
+    transform: translateX(-87.47%);
   }
   100% {
-    transform: translateX(0%);
+    transform: translateX(-87.47%);
   }
-
 }
 
 .carrousel {
@@ -48,10 +80,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 0;
   padding-top: 3%;
-  animation: slide 6s linear infinite;
-  overflow: auto;
+  animation: slide 40s alternate infinite;
 }
 
 #mujer {
@@ -69,13 +99,13 @@
 
 .logo-container {
     position: relative;
-    z-index: 1;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    margin-top: 10px;
-    width: 25%
+    padding-top: 10px;
+    width: 25%;
+    background-color: rgb(9, 117, 101);
   }
   
   .logo {
@@ -119,9 +149,10 @@
     position: relative;
     flex-direction: column;
     justify-content: flex-start;
-    margin-top: 18%;
+    padding-top: 18%;
     width: 25%;
     z-index: 2;
+    background-color: rgb(9, 117, 101);
   }
   
   .text-container h1 {
@@ -176,6 +207,7 @@
     .logo-container {
       width: 85%;
       margin-top: 302px;
+      padding-top: 0px;
     }
     .text-container {
       width: 90%;
@@ -290,7 +322,7 @@
     }
     .text-container {
       width: 25%;
-      right: 25px;
+      padding-right: 25px;
     }
     .text-container h1 {
       font-size: 38px;
