@@ -213,7 +213,6 @@ select {
     width: 100%;
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
     
   }
   #myform {
@@ -224,6 +223,9 @@ select {
   }
   #form_title {
     top: 20px;
+  }
+  .contact_info {
+    margin-left: 0;
   }
 }
 
