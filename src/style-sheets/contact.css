@@ -221,6 +221,9 @@ select {
   .icon-container{
     margin-bottom: 10%;
   }
+  .icon-container svg{
+    margin-right: 25px;
+  }
   #form_title {
     top: 20px;
   }
