@@ -186,8 +186,85 @@
   }
 
   @media (max-width: 767.98px) {
+
+    @keyframes slide {
+      0% {
+        transform: translateX(0%);
+      }
+      4.165% {
+        transform: translateX(0%);
+      }
+      8.33% {
+        transform: translateX(-8.33%);
+      }
+      12.495% {
+        transform: translateX(-8.33%);
+      }
+      16.66% {
+        transform: translateX(-16.66%);
+      }
+      20.825% {
+        transform: translateX(-16.66%);
+      }
+      24.99% {
+        transform: translateX(-24.99%);
+      }
+      29.155% {
+        transform: translateX(-24.99%);
+      }
+      33.32% {
+        transform: translateX(-33.32%);
+      }
+      37.485% {
+        transform: translateX(-33.32%);
+      }
+      41.65% {
+        transform: translateX(-41.65%);
+      }
+      45.815% {
+        transform: translateX(-41.65%);
+      }
+      49.98% {
+        transform: translateX(-49.98%);
+      }
+      54.145% {
+        transform: translateX(-49.98%);
+      }
+      58.31% {
+        transform: translateX(-58.31%);
+      }
+      62.475% {
+        transform: translateX(-58.31%);
+      }
+      66.64% {
+        transform: translateX(-66.64%);
+      }
+      70.805% {
+        transform: translateX(-66.64%);
+      }
+      74.97% {
+        transform: translateX(-74.97%);
+      }
+      79.135% {
+        transform: translateX(-74.97%);
+      }
+      83.3% {
+        transform: translateX(-83.3%);
+      }
+      87.465% {
+        transform: translateX(-83.3%);
+      }
+      91.63% {
+        transform: translateX(-91.63%);
+      }
+      100% {
+        transform: translateX(-91.63%);
+      }
+    }
+
     .carrousel {
       padding-top: 3%;
+      width: 1200%;
     }
     .background {
       flex-wrap: wrap;
